@@ -18,11 +18,11 @@ for (const file of commandFiles) {
   const filePath = path.join(commandsPath, file)
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   const command = require(filePath)
-  commands.push(command.data.toJSON())
+  commands.push(command.botCommand.data.toJSON())
 }
 
 const rest = new REST({ version: '10' }).setToken(token)
 
 rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
-  .then((data: any) => console.log(`Successfully registered ${data.length as string} application commands.`))
+  .then((data: any) => console.log(`Successfully registered ${data.length as string} applications commands.`))
   .catch(console.error)
