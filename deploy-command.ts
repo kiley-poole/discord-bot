@@ -1,28 +1,48 @@
-import { REST, Routes } from 'discord.js'
-import dotenv from 'dotenv'
 
-import fs from 'node:fs'
-import path from 'node:path'
+import { ApplicationCommandOptionType, REST, Routes } from 'discord.js'
+import dotenv from 'dotenv'
 
 dotenv.config()
 
 const clientId = process.env.CLIENT_ID ?? ''
-const guildId = process.env.SERVER_ID ?? ''
 const token = process.env.DISCORD_TOKEN ?? ''
 
-const commands = []
-const commandsPath = path.join(__dirname, 'commands')
-const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'))
+const commands = [
+  {
+    name: 'join',
+    description: 'Joins the voice channel that you are in'
+  },
+  {
+    name: 'record',
+    description: 'Enables recording for a user',
+    options: [
+      {
+        name: 'speaker',
+        type: ApplicationCommandOptionType.User,
+        description: 'The user to record',
+        required: true
+      }
+    ]
+  },
+  {
+    name: 'leave',
+    description: 'Leave the voice channel'
+  }
+]
 
-for (const file of commandFiles) {
-  const filePath = path.join(commandsPath, file)
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const command = require(filePath)
-  commands.push(command.botCommand.data.toJSON())
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+async function deployCommands () {
+  const rest = new REST({ version: '10' }).setToken(token)
+
+  try {
+    console.log('Started refreshing application (/) commands.')
+
+    await rest.put(Routes.applicationCommands(clientId), { body: commands })
+
+    console.log('Successfully reloaded application (/) commands.')
+  } catch (error) {
+    console.error(error)
+  }
 }
 
-const rest = new REST({ version: '10' }).setToken(token)
-
-rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
-  .then((data: any) => console.log(`Successfully registered ${data.length as string} applications commands.`))
-  .catch(console.error)
+void deployCommands()
