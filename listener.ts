@@ -1,18 +1,21 @@
 import { createWriteStream } from 'node:fs'
 import { pipeline } from 'node:stream'
 import { EndBehaviorType, VoiceReceiver } from '@discordjs/voice'
-import type { User } from 'discord.js'
+import type { Snowflake, User } from 'discord.js'
 import * as prism from 'prism-media'
+import { getCharacterName } from './handler'
 
-function getDisplayName (userId: string, user?: User): string {
-  return (user != null) ? `${user.username}_${user.discriminator}` : userId
+async function getDisplayName (userId: string, user?: User): Promise<string> {
+  const characterName = await getCharacterName(userId)
+  // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+  return characterName || ((user != null) ? `${user.username}_${user.discriminator}` : userId)
 }
 
-export function createListeningStream (receiver: VoiceReceiver, userId: string, user?: User): any {
+export async function createListeningStream (receiver: VoiceReceiver, userId: string, recordable: Set<Snowflake>, user?: User): Promise<any> {
   const opusStream = receiver.subscribe(userId, {
     end: {
       behavior: EndBehaviorType.AfterSilence,
-      duration: 1000
+      duration: 500
     }
   })
 
@@ -26,7 +29,8 @@ export function createListeningStream (receiver: VoiceReceiver, userId: string, 
     }
   })
 
-  const filename = `./recordings/${Date.now()}-${getDisplayName(userId, user)}.ogg`
+  const name = await getDisplayName(userId, user)
+  const filename = `./recordings/${Date.now()}-${name}.ogg`
 
   const out = createWriteStream(filename)
 
@@ -37,6 +41,7 @@ export function createListeningStream (receiver: VoiceReceiver, userId: string, 
       console.warn(`❌ Error recording file ${filename} - ${err.message}`)
     } else {
       console.log(`✅ Recorded ${filename}`)
+      recordable.delete(userId)
     }
   })
 }

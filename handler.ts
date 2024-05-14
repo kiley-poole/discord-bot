@@ -1,6 +1,10 @@
+/* eslint-disable @typescript-eslint/strict-boolean-expressions */
 import { entersState, joinVoiceChannel, VoiceConnection, VoiceConnectionStatus } from '@discordjs/voice'
 import { Client, CommandInteraction, GuildMember, Snowflake } from 'discord.js'
 import { createListeningStream } from './listener'
+import { promises as fs } from 'node:fs'
+
+const CHARACTER_FILE_PATH = './characters.json'
 
 async function join (
   interaction: CommandInteraction,
@@ -29,8 +33,12 @@ async function join (
     await entersState(connection, VoiceConnectionStatus.Ready, 20e3)
     const receiver = connection.receiver
 
-    receiver.speaking.on('start', (userId) => {
-      createListeningStream(receiver, userId, client.users.cache.get(userId))
+    // eslint-disable-next-line @typescript-eslint/no-misused-promises
+    receiver.speaking.on('start', async (userId) => {
+      if (!recordable.has(userId)) {
+        recordable.add(userId)
+        await createListeningStream(receiver, userId, recordable, client.users.cache.get(userId))
+      }
     })
   } catch (error) {
     console.warn(error)
@@ -55,6 +63,22 @@ async function leave (
   }
 }
 
+async function register (
+  interaction: CommandInteraction,
+  _recordable: Set<Snowflake>,
+  _client: Client,
+  _connection?: VoiceConnection
+): Promise<any> {
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  const characterName: string = interaction.options.get('character_name')!.value! as string
+  if (characterName) {
+    await setCharacterName(interaction.user.id, characterName)
+    await interaction.reply(`Character name registered as ${characterName}!`)
+  } else {
+    await interaction.reply('Please provide a valid character name.')
+  }
+}
+
 export const interactionHandlers = new Map<
 string,
 (
@@ -64,5 +88,19 @@ string,
   connection?: VoiceConnection,
 ) => Promise<void>
 >()
+
 interactionHandlers.set('join', join)
 interactionHandlers.set('leave', leave)
+interactionHandlers.set('register', register)
+
+export async function getCharacterName (userId: string): Promise<string> {
+  const data = JSON.parse(await fs.readFile(CHARACTER_FILE_PATH, 'utf-8'))
+  // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+  return data[userId] || userId
+}
+
+async function setCharacterName (userId: string, characterName: string): Promise<void> {
+  const data = JSON.parse(await fs.readFile(CHARACTER_FILE_PATH, 'utf-8'))
+  data[userId] = characterName
+  await fs.writeFile(CHARACTER_FILE_PATH, JSON.stringify(data, null, 2))
+}

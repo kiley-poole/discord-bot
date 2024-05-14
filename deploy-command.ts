@@ -13,13 +13,13 @@ const commands = [
     description: 'Joins the voice channel that you are in'
   },
   {
-    name: 'record',
-    description: 'Enables recording for a user',
+    name: 'register',
+    description: 'maps character name to discord user',
     options: [
       {
-        name: 'speaker',
-        type: ApplicationCommandOptionType.User,
-        description: 'The user to record',
+        name: 'character_name',
+        type: ApplicationCommandOptionType.String,
+        description: 'Character name',
         required: true
       }
     ]
