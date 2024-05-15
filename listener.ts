@@ -5,13 +5,13 @@ import type { Snowflake, User } from 'discord.js'
 import * as prism from 'prism-media'
 import { getCharacterName } from './handler'
 
-async function getDisplayName (userId: string, user?: User): Promise<string> {
-  const characterName = await getCharacterName(userId)
+async function getDisplayName (userId: string, guildId: string, channelId: string, user?: User): Promise<string> {
+  const characterName = await getCharacterName(userId, guildId, channelId)
   // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
   return characterName || ((user != null) ? `${user.username}_${user.discriminator}` : userId)
 }
 
-export async function createListeningStream (receiver: VoiceReceiver, userId: string, recordable: Set<Snowflake>, user?: User): Promise<any> {
+export async function createListeningStream (receiver: VoiceReceiver, userId: string, guildId: string, channelId: string, recordable: Set<Snowflake>, user?: User): Promise<any> {
   const opusStream = receiver.subscribe(userId, {
     end: {
       behavior: EndBehaviorType.AfterSilence,
@@ -29,7 +29,7 @@ export async function createListeningStream (receiver: VoiceReceiver, userId: st
     }
   })
 
-  const name = await getDisplayName(userId, user)
+  const name = await getDisplayName(userId, guildId, channelId, user)
   const filename = `./recordings/${Date.now()}-${name}.ogg`
 
   const out = createWriteStream(filename)

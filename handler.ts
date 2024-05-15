@@ -1,17 +1,14 @@
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
 import { entersState, joinVoiceChannel, VoiceConnection, VoiceConnectionStatus } from '@discordjs/voice'
-import { Client, CommandInteraction, GuildMember, Snowflake } from 'discord.js'
+import { ChannelType, Client, CommandInteraction, GuildMember, Snowflake } from 'discord.js'
 import { createListeningStream } from './listener'
-import { promises as fs } from 'node:fs'
-
-const CHARACTER_FILE_PATH = './characters.json'
+import { getAllCharacterAndUserIdsForGuildChannel, registerCharacterName } from './database'
+import { guildUserCharacterNames } from './index'
 
 async function join (
-  interaction: CommandInteraction,
-  recordable: Set<Snowflake>,
-  client: Client,
-  connection?: VoiceConnection
-): Promise<any> {
+  input: InteractionHandlerInput
+): Promise<void> {
+  let { interaction, recordable, client, connection } = input
   await interaction.deferReply()
   if (connection == null) {
     if (interaction.member instanceof GuildMember && (interaction.member.voice.channel != null)) {
@@ -23,6 +20,10 @@ async function join (
         selfMute: true,
         adapterCreator: channel.guild.voiceAdapterCreator
       })
+      if (interaction.guildId != null) {
+        await addToMap(interaction.guildId, interaction.channelId)
+        console.log(guildUserCharacterNames)
+      }
     } else {
       await interaction.followUp('Join a voice channel and then try that again!')
       return
@@ -37,7 +38,9 @@ async function join (
     receiver.speaking.on('start', async (userId) => {
       if (!recordable.has(userId)) {
         recordable.add(userId)
-        await createListeningStream(receiver, userId, recordable, client.users.cache.get(userId))
+        if (interaction.guildId != null) {
+          await createListeningStream(receiver, userId, interaction.guildId, interaction.channelId, recordable, client.users.cache.get(userId))
+        }
       }
     })
   } catch (error) {
@@ -49,11 +52,9 @@ async function join (
 }
 
 async function leave (
-  interaction: CommandInteraction,
-  recordable: Set<Snowflake>,
-  _client: Client,
-  connection?: VoiceConnection
+  input: InteractionHandlerInput
 ): Promise<any> {
+  const { interaction, recordable, connection } = input
   if (connection != null) {
     connection.destroy()
     recordable.clear()
@@ -64,43 +65,67 @@ async function leave (
 }
 
 async function register (
-  interaction: CommandInteraction,
-  _recordable: Set<Snowflake>,
-  _client: Client,
-  _connection?: VoiceConnection
-): Promise<any> {
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  const characterName: string = interaction.options.get('character_name')!.value! as string
-  if (characterName) {
-    await setCharacterName(interaction.user.id, characterName)
-    await interaction.reply(`Character name registered as ${characterName}!`)
+  input: InteractionHandlerInput
+): Promise<void> {
+  const { interaction } = input
+  const characterName = interaction.options.get('character_name')?.value
+  const { guildId, channelId } = interaction
+  const userId = interaction.user.id
+
+  if (guildId == null || channelId == null) {
+    await interaction.reply({ ephemeral: true, content: 'Failed to register character name. Please try again later.' })
+    return
+  }
+
+  if (characterName != null && typeof characterName === 'string' && characterName.length > 0) {
+    await registerCharacterName(characterName, userId, guildId, channelId)
+    await interaction.reply({ ephemeral: true, content: `Character name registered as ${characterName}!` })
   } else {
-    await interaction.reply('Please provide a valid character name.')
+    await interaction.reply({ ephemeral: true, content: 'Please provide a valid character name.' })
   }
 }
 
-export const interactionHandlers = new Map<
-string,
-(
-  interaction: CommandInteraction,
-  recordable: Set<Snowflake>,
-  client: Client,
-  connection?: VoiceConnection,
-) => Promise<void>
->()
-
-interactionHandlers.set('join', join)
-interactionHandlers.set('leave', leave)
-interactionHandlers.set('register', register)
-
-export async function getCharacterName (userId: string): Promise<string> {
-  const data = JSON.parse(await fs.readFile(CHARACTER_FILE_PATH, 'utf-8'))
-  // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
-  return data[userId] || userId
+async function taunt (
+  input: InteractionHandlerInput
+): Promise<void> {
+  const { client, interaction } = input
+  const channel = client.channels.cache.get(interaction.channelId)
+  if (channel?.isTextBased() && channel.type === ChannelType.GuildText) {
+    await interaction.deferReply({ ephemeral: true }) // Acknowledge the interaction
+    await channel.send('Eat shit and die')
+    await interaction.followUp({ content: 'Message posted to the channel!', ephemeral: true }) // Final response to the interaction
+  } else {
+    await interaction.reply({ content: 'Failed to send the message. Channel not found or is not a text channel.', ephemeral: true })
+  }
 }
 
-async function setCharacterName (userId: string, characterName: string): Promise<void> {
-  const data = JSON.parse(await fs.readFile(CHARACTER_FILE_PATH, 'utf-8'))
-  data[userId] = characterName
-  await fs.writeFile(CHARACTER_FILE_PATH, JSON.stringify(data, null, 2))
+interface InteractionHandlerInput {
+  interaction: CommandInteraction
+  recordable: Set<Snowflake>
+  client: Client
+  connection?: VoiceConnection
+}
+
+export async function getInteractionHandler (): Promise<Map<string, (input: InteractionHandlerInput) => Promise<void>>> {
+  const interactionHandlers = new Map<
+  string,
+  (
+    input: InteractionHandlerInput
+  ) => Promise<void>
+  >()
+
+  interactionHandlers.set('join', join)
+  interactionHandlers.set('leave', leave)
+  interactionHandlers.set('register', register)
+  interactionHandlers.set('taunt', taunt)
+  return interactionHandlers
+}
+
+export async function getCharacterName (userId: string, guildId: string, channelId: string): Promise<string> {
+  return guildUserCharacterNames.get(guildId)?.get(channelId)?.get(userId) ?? ''
+}
+
+async function addToMap (guildId: string, channelId: string): Promise<void> {
+  const characters = getAllCharacterAndUserIdsForGuildChannel(guildId, channelId)
+  guildUserCharacterNames.set(guildId, new Map([[channelId, new Map(characters.map(({ userId, name }) => [userId, name]))]]))
 }

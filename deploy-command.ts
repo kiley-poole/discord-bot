@@ -27,6 +27,10 @@ const commands = [
   {
     name: 'leave',
     description: 'Leave the voice channel'
+  },
+  {
+    name: 'taunt',
+    description: 'Taunt the user'
   }
 ]
 

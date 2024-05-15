@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 import chokidar from 'chokidar'
 import * as fs from 'fs'
 import * as path from 'path'
-import { interactionHandlers } from './handler'
+import { getInteractionHandler } from './handler'
 import { getVoiceConnection } from '@discordjs/voice'
 import { splitBySentence } from './sentence-chunker'
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildMessages] })
@@ -60,15 +60,17 @@ client.once('ready', () => {
 })
 
 const recordable = new Set<string>()
+export const guildUserCharacterNames = new Map<string, Map<string, Map<string, string>>>()
 
 client.on('interactionCreate', async (interaction: Interaction) => {
   if (!interaction.isCommand() || (interaction.guildId == null)) return
 
+  const interactionHandlers = await getInteractionHandler()
   const handler = interactionHandlers.get(interaction.commandName)
 
   try {
     if (handler != null) {
-      await handler(interaction, recordable, client, getVoiceConnection(interaction.guildId))
+      await handler({ interaction, recordable, client, connection: getVoiceConnection(interaction.guildId) })
     } else {
       await interaction.reply('Unknown command')
     }
@@ -77,4 +79,4 @@ client.on('interactionCreate', async (interaction: Interaction) => {
   }
 })
 
-void client.login(TOKEN)
+client.login(TOKEN).catch(console.error)
