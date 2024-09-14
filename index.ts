@@ -1,46 +1,54 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
-import { ChannelType, Client, GatewayIntentBits, Interaction } from 'discord.js'
+import { ChannelType, Client, Collection, Events, GatewayIntentBits } from 'discord.js'
 import dotenv from 'dotenv'
 import chokidar from 'chokidar'
 import * as fs from 'fs'
 import * as path from 'path'
-import { getInteractionHandler } from './handler'
 import { getVoiceConnection } from '@discordjs/voice'
-import { splitBySentence } from './sentence-chunker'
-const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildMessages] })
+import { splitBySentence } from './utils/sentence-chunker'
+import { commands } from './commands'
+import { ClientWithCommands } from './utils/client'
+
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildMessages] }) as ClientWithCommands
+client.commands = new Collection()
+
+for (const command of commands) {
+  if ('data' in command && 'execute' in command) {
+    client.commands.set(command.data.name, command)
+  } else {
+    console.log('[WARNING] The command is missing a required "data" or "execute" property.')
+  }
+}
 
 dotenv.config()
 
 const TOKEN = process.env.DISCORD_TOKEN
-const CHANNEL_ID = '1149792386650755072'
-// const CHANNEL_ID = '1188299492945035356'
+const CHANNEL_ID = '1283320113256333395'
+// const CHANNEL_ID = '1149792386650755072'
 const DIRECTORY_PATH = '/home/kpoole/translator/summaries'
 const ARCHIVE_PATH = '/home/kpoole/translator/archive/summaries'
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user?.tag ?? 'unknown user'}!`)
-})
-
 client.once('ready', () => {
+  console.log(`Logged in as ${client.user?.tag ?? 'unknown user'}!`)
+
   const watcher = chokidar.watch(DIRECTORY_PATH, {
-    ignored: /^\./, // ignore dotfiles
+    ignored: /^\./,
     persistent: true
   })
 
   watcher.on('add', async filePath => {
     if (path.extname(filePath) === '.txt') {
-      const fileContents = fs.readFileSync(filePath, 'utf-8')
+      const fileContents = await fs.promises.readFile(filePath, 'utf-8')
       const channel = client.channels.cache.get(CHANNEL_ID)
 
       if (channel?.isTextBased() && channel.type === ChannelType.GuildText) {
         const fileName = path.basename(filePath)
         const initialMessage = await channel.send(`Summary for ${fileName}:`)
 
-        // Start a thread from the initial message
         const thread = await initialMessage.startThread({
           name: `Summary Thread for ${fileName}`,
-          autoArchiveDuration: 60 // auto archive after 1 hour of inactivity
+          autoArchiveDuration: 60
         })
 
         const chunks = splitBySentence(fileContents)
@@ -48,7 +56,6 @@ client.once('ready', () => {
           await thread.send(chunk)
         }
 
-        // Move the file to the archive
         try {
           fs.renameSync(filePath, path.join(ARCHIVE_PATH, fileName))
         } catch (error) {
@@ -60,22 +67,32 @@ client.once('ready', () => {
 })
 
 const recordable = new Set<string>()
-export const guildUserCharacterNames = new Map<string, Map<string, Map<string, string>>>()
 
-client.on('interactionCreate', async (interaction: Interaction) => {
-  if (!interaction.isCommand() || (interaction.guildId == null)) return
+client.on(Events.InteractionCreate, async (interaction) => {
+  if (!interaction.isChatInputCommand()) return
 
-  const interactionHandlers = await getInteractionHandler()
-  const handler = interactionHandlers.get(interaction.commandName)
+  const interactionClient = interaction.client as ClientWithCommands
+  const command = interactionClient.commands.get(interaction.commandName)
+
+  if (!command) {
+    console.error(`No command matching ${interaction.commandName} was found.`)
+    return
+  }
+
+  if (!interaction.guildId) {
+    await interaction.reply({ content: 'This command is not available in DMs.', ephemeral: true })
+    return
+  }
 
   try {
-    if (handler != null) {
-      await handler({ interaction, recordable, client, connection: getVoiceConnection(interaction.guildId) })
-    } else {
-      await interaction.reply('Unknown command')
-    }
+    await command.execute({ interaction, recordable, client, connection: getVoiceConnection(interaction.guildId) })
   } catch (error) {
-    console.warn(error)
+    console.error(error)
+    if (interaction.replied || interaction.deferred) {
+      await interaction.followUp({ content: 'There was an error while executing this command!', ephemeral: true })
+    } else {
+      await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true })
+    }
   }
 })
 

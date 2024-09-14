@@ -1,4 +1,4 @@
-const MAX_MESSAGE_LENGTH = 2000 // Discord's message character limit
+const MAX_MESSAGE_LENGTH = 1750 // Discord's message character limit
 
 export function splitBySentence (text: any, maxLength = MAX_MESSAGE_LENGTH): any {
   const chunks = []

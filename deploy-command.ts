@@ -1,47 +1,23 @@
+import { REST, Routes } from 'discord.js'
+import { config } from 'dotenv'
+import { commands } from './commands'
+import { Command } from './utils/types'
 
-import { ApplicationCommandOptionType, REST, Routes } from 'discord.js'
-import dotenv from 'dotenv'
-
-dotenv.config()
+config()
 
 const clientId = process.env.CLIENT_ID ?? ''
 const token = process.env.DISCORD_TOKEN ?? ''
+console.log('Commands:', commands) // Add this line to debug
 
-const commands = [
-  {
-    name: 'join',
-    description: 'Joins the voice channel that you are in'
-  },
-  {
-    name: 'register',
-    description: 'maps character name to discord user',
-    options: [
-      {
-        name: 'character_name',
-        type: ApplicationCommandOptionType.String,
-        description: 'Character name',
-        required: true
-      }
-    ]
-  },
-  {
-    name: 'leave',
-    description: 'Leave the voice channel'
-  },
-  {
-    name: 'taunt',
-    description: 'Taunt the user'
-  }
-]
+const commandData = commands.map((command: Command) => command.data.toJSON())
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-async function deployCommands () {
+async function deployCommands (): Promise<void> {
   const rest = new REST({ version: '10' }).setToken(token)
 
   try {
     console.log('Started refreshing application (/) commands.')
 
-    await rest.put(Routes.applicationCommands(clientId), { body: commands })
+    await rest.put(Routes.applicationCommands(clientId), { body: commandData })
 
     console.log('Successfully reloaded application (/) commands.')
   } catch (error) {

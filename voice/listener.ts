@@ -3,10 +3,10 @@ import { pipeline } from 'node:stream'
 import { EndBehaviorType, VoiceReceiver } from '@discordjs/voice'
 import type { Snowflake, User } from 'discord.js'
 import * as prism from 'prism-media'
-import { getCharacterName } from './handler'
+import { getCharacterName } from '../utils/helpers'
 
 async function getDisplayName (userId: string, guildId: string, channelId: string, user?: User): Promise<string> {
-  const characterName = await getCharacterName(userId, guildId, channelId)
+  const characterName = getCharacterName(userId, guildId, channelId)
   // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
   return characterName || ((user != null) ? `${user.username}_${user.discriminator}` : userId)
 }
