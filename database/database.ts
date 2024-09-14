@@ -1,6 +1,7 @@
-import Database from 'better-sqlite3'
+import sqlite3 from 'sqlite3'
+import { open, Database } from 'sqlite'
 
-const db = new Database('yadl.db', { verbose: console.log })
+let db: Database<sqlite3.Database, sqlite3.Statement>
 
 interface CharacterNameRow {
   name: string
@@ -15,10 +16,16 @@ interface GameRow {
   userId: string
   guildId: string
   channelId: string
+  summaryChannelId: string
 }
 
-export function initializeDatabase (): void {
-  db.exec(`
+export async function initializeDatabase (): Promise<void> {
+  db = await open({
+    filename: 'yadl.db',
+    driver: sqlite3.Database
+  })
+
+  await db.exec(`
     CREATE TABLE IF NOT EXISTS character_names (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT NOT NULL,
@@ -40,29 +47,60 @@ export function initializeDatabase (): void {
   `)
 }
 
-export function registerCharacterName (name: string, userId: string, guildId: string, channelId: string): void {
-  db.prepare('INSERT INTO character_names (name, userId, guildId, channelId) VALUES (?, ?, ?, ?)').run(name, userId, guildId, channelId)
+export async function registerCharacterName (name: string, userId: string, guildId: string, channelId: string): Promise<void> {
+  try {
+    await db.run('INSERT INTO character_names (name, userId, guildId, channelId) VALUES (?, ?, ?, ?)', [name, userId, guildId, channelId])
+  } catch (error) {
+    console.error('Database error:', error)
+    throw error
+  }
 }
 
-export function getCharacterNameByUserIdGuildIdChannelId (userId: string, guildId: string, channelId: string): string {
-  const row = db.prepare('SELECT name FROM character_names WHERE userId = ? AND guildId = ? AND channelId = ?').get(userId, guildId, channelId) as CharacterNameRow | undefined
-  return row?.name ?? ''
+export async function getCharacterNameByUserIdGuildIdChannelId (userId: string, guildId: string, channelId: string): Promise<string> {
+  try {
+    const row = await db.get<CharacterNameRow>('SELECT name FROM character_names WHERE userId = ? AND guildId = ? AND channelId = ?', [userId, guildId, channelId])
+    return row?.name ?? ''
+  } catch (error) {
+    console.error('Database error:', error)
+    throw error
+  }
 }
 
-export function getAllCharacterAndUserIdsForGuildChannel (guildId: string, channelId: string): CharacterNameRow[] {
-  return db.prepare('SELECT name, userId FROM character_names WHERE guildId = ? AND channelId = ?').all(guildId, channelId) as CharacterNameRow[]
+export async function getAllCharacterAndUserIdsForGuildChannel (guildId: string, channelId: string): Promise<CharacterNameRow[]> {
+  try {
+    const rows = await db.all<CharacterNameRow[]>('SELECT name, userId FROM character_names WHERE guildId = ? AND channelId = ?', [guildId, channelId])
+    return rows
+  } catch (error) {
+    console.error('Database error:', error)
+    throw error
+  }
 }
 
-export function createGame (gameName: string, gameSystem: string, playerCount: number, userId: string, guildId: string, channelId: string, summaryChannelId: string): void {
-  db.prepare('INSERT INTO games (gameName, gameSystem, playerCount, userId, guildId, channelId, summaryChannelId) VALUES (?, ?, ?, ?, ?, ?, ?)').run(gameName, gameSystem, playerCount, userId, guildId, channelId, summaryChannelId)
+export async function createGame (gameName: string, gameSystem: string, playerCount: number, userId: string, guildId: string, channelId: string, summaryChannelId: string): Promise<void> {
+  try {
+    await db.run('INSERT INTO games (gameName, gameSystem, playerCount, userId, guildId, channelId, summaryChannelId) VALUES (?, ?, ?, ?, ?, ?, ?)', [gameName, gameSystem, playerCount, userId, guildId, channelId, summaryChannelId])
+  } catch (error) {
+    console.error('Database error:', error)
+    throw error
+  }
 }
 
-export function getGameByUserIdGuildIdChannelId (userId: string, guildId: string, channelId: string): GameRow | undefined {
-  return db.prepare('SELECT * FROM games WHERE userId = ? AND guildId = ? AND channelId = ?').get(userId, guildId, channelId) as GameRow | undefined
+export async function getGameByUserIdGuildIdChannelId (userId: string, guildId: string, channelId: string): Promise<GameRow | undefined> {
+  try {
+    const row = await db.get<GameRow>('SELECT * FROM games WHERE userId = ? AND guildId = ? AND channelId = ?', [userId, guildId, channelId])
+    return row
+  } catch (error) {
+    console.error('Database error:', error)
+    throw error
+  }
 }
 
-export function getAllGamesForGuildChannel (guildId: string, channelId: string): GameRow[] {
-  return db.prepare('SELECT * FROM games WHERE guildId = ? AND channelId = ?').all(guildId, channelId) as GameRow[]
+export async function getAllGamesForGuildChannel (guildId: string, channelId: string): Promise<GameRow[]> {
+  try {
+    const rows = await db.all<GameRow[]>('SELECT * FROM games WHERE guildId = ? AND channelId = ?', [guildId, channelId])
+    return rows
+  } catch (error) {
+    console.error('Database error:', error)
+    throw error
+  }
 }
-
-initializeDatabase()

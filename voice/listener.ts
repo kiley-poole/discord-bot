@@ -1,17 +1,17 @@
-import { createWriteStream } from 'node:fs'
-import { pipeline } from 'node:stream'
+/* eslint-disable @typescript-eslint/strict-boolean-expressions */
+import { createWriteStream, existsSync, mkdirSync } from 'fs'
+import { pipeline } from 'stream'
 import { EndBehaviorType, VoiceReceiver } from '@discordjs/voice'
 import type { Snowflake, User } from 'discord.js'
 import * as prism from 'prism-media'
-import { getCharacterName } from '../utils/helpers'
+import { getCharacterNameByUserIdGuildIdChannelId } from '../database/database'
 
 async function getDisplayName (userId: string, guildId: string, channelId: string, user?: User): Promise<string> {
-  const characterName = getCharacterName(userId, guildId, channelId)
-  // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+  const characterName = await getCharacterNameByUserIdGuildIdChannelId(userId, guildId, channelId)
   return characterName || ((user != null) ? `${user.username}_${user.discriminator}` : userId)
 }
 
-export async function createListeningStream (receiver: VoiceReceiver, userId: string, guildId: string, channelId: string, recordable: Set<Snowflake>, user?: User): Promise<any> {
+export async function createListeningStream (receiver: VoiceReceiver, userId: string, guildId: string, channelId: string, recordable: Set<Snowflake>, user?: User): Promise<void> {
   const opusStream = receiver.subscribe(userId, {
     end: {
       behavior: EndBehaviorType.AfterSilence,
@@ -30,13 +30,19 @@ export async function createListeningStream (receiver: VoiceReceiver, userId: st
   })
 
   const name = await getDisplayName(userId, guildId, channelId, user)
-  const filename = `./recordings/${Date.now()}-${name}.ogg`
+  const recordingsPath = './recordings'
+  const filename = `${recordingsPath}/${Date.now()}-${name}.ogg`
+
+  // Ensure the recordings directory exists
+  if (!existsSync(recordingsPath)) {
+    mkdirSync(recordingsPath, { recursive: true })
+  }
 
   const out = createWriteStream(filename)
 
   console.log(`👂 Started recording ${filename}`)
 
-  pipeline(opusStream, oggStream, out, (err) => {
+  pipeline(opusStream, oggStream, out, (err: any) => {
     if (err != null) {
       console.warn(`❌ Error recording file ${filename} - ${err.message}`)
     } else {

@@ -23,15 +23,15 @@ const command: Command = {
         .setDescription('The channel for game summaries')
         .setRequired(true)),
   async execute (input) {
-    const { interaction, options } = input
+    const { interaction } = input
     try {
-      const gameName = options.getString('game_name', true)
-      const gameSystem = options.getString('game_system', true)
-      const playerCount = options.getInteger('player_count', true)
-      const summaryChannel = options.getChannel('summary_channel', true)
+      const gameName = interaction.options.get('game_name')?.value as string
+      const gameSystem = interaction.options.get('game_system')?.value as string
+      const playerCount = interaction.options.get('player_count')?.value as number
       const userId = interaction.user.id
       const channelId = interaction.channelId
       const guildId = interaction.guildId
+      const summaryChannel = interaction.options.get('summary_channel')?.channel
 
       if (guildId == null) {
         await interaction.reply('Failed to register the game. Please try again later.')
@@ -43,7 +43,7 @@ const command: Command = {
         return
       }
 
-      createGame(gameName, gameSystem, playerCount, userId, guildId, channelId, summaryChannel.id)
+      await createGame(gameName, gameSystem, playerCount, userId, guildId, channelId, summaryChannel.id)
 
       await interaction.reply(`Game registered: ${gameName} (${gameSystem}) with ${playerCount} players.`)
     } catch (error) {

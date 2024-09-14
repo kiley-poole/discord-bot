@@ -11,8 +11,8 @@ const command: Command = {
         .setDescription('Your character name')
         .setRequired(true)),
   async execute (input) {
-    const { interaction, options } = input
-    const characterName = options.getString('character_name')
+    const { interaction } = input
+    const characterName = interaction.options.get('character_name')?.value
     const { guildId, channelId } = interaction
     const userId = interaction.user.id
 
@@ -22,7 +22,7 @@ const command: Command = {
     }
 
     if (characterName != null && typeof characterName === 'string' && characterName.length > 0) {
-      registerCharacterName(characterName, userId, guildId, channelId)
+      await registerCharacterName(characterName, userId, guildId, channelId)
       await interaction.reply({ ephemeral: true, content: `Character name registered as ${characterName}!` })
     } else {
       await interaction.reply({ ephemeral: true, content: 'Please provide a valid character name.' })

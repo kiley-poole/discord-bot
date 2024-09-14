@@ -22,7 +22,7 @@ const command: Command = {
           adapterCreator: channel.guild.voiceAdapterCreator
         })
         if (interaction.guildId != null) {
-          addToMap(interaction.guildId, interaction.channelId)
+          await addToMap(interaction.guildId, interaction.channelId)
         }
       } else {
         await interaction.followUp('Join a voice channel and then try that again!')

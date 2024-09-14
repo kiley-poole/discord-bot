@@ -9,6 +9,43 @@ import { getVoiceConnection } from '@discordjs/voice'
 import { splitBySentence } from './utils/sentence-chunker'
 import { commands } from './commands'
 import { ClientWithCommands } from './utils/client'
+import { initializeDatabase } from './database/database'
+
+dotenv.config()
+
+const TOKEN = process.env.DISCORD_TOKEN
+const CHANNEL_ID = process.env.CHANNEL_ID
+const DIRECTORY_PATH = process.env.DIRECTORY_PATH
+const ARCHIVE_PATH = process.env.ARCHIVE_PATH
+
+if (!TOKEN) {
+  console.error('DISCORD_TOKEN is not set in environment variables.')
+  process.exit(1)
+}
+
+if (!CHANNEL_ID) {
+  console.error('CHANNEL_ID is not set in environment variables.')
+  process.exit(1)
+}
+
+if (!DIRECTORY_PATH) {
+  console.error('DIRECTORY_PATH is not set in environment variables.')
+  process.exit(1)
+}
+
+if (!ARCHIVE_PATH) {
+  console.error('ARCHIVE_PATH is not set in environment variables.')
+  process.exit(1)
+}
+
+// Ensure the directories exist
+if (!fs.existsSync(DIRECTORY_PATH)) {
+  fs.mkdirSync(DIRECTORY_PATH, { recursive: true })
+}
+
+if (!fs.existsSync(ARCHIVE_PATH)) {
+  fs.mkdirSync(ARCHIVE_PATH, { recursive: true })
+}
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildMessages] }) as ClientWithCommands
 client.commands = new Collection()
@@ -21,14 +58,6 @@ for (const command of commands) {
   }
 }
 
-dotenv.config()
-
-const TOKEN = process.env.DISCORD_TOKEN
-const CHANNEL_ID = '1283320113256333395'
-// const CHANNEL_ID = '1149792386650755072'
-const DIRECTORY_PATH = '/home/kpoole/translator/summaries'
-const ARCHIVE_PATH = '/home/kpoole/translator/archive/summaries'
-
 client.once('ready', () => {
   console.log(`Logged in as ${client.user?.tag ?? 'unknown user'}!`)
 
@@ -39,28 +68,32 @@ client.once('ready', () => {
 
   watcher.on('add', async filePath => {
     if (path.extname(filePath) === '.txt') {
-      const fileContents = await fs.promises.readFile(filePath, 'utf-8')
-      const channel = client.channels.cache.get(CHANNEL_ID)
+      try {
+        const fileContents = await fs.promises.readFile(filePath, 'utf-8')
+        const channel = client.channels.cache.get(CHANNEL_ID)
 
-      if (channel?.isTextBased() && channel.type === ChannelType.GuildText) {
-        const fileName = path.basename(filePath)
-        const initialMessage = await channel.send(`Summary for ${fileName}:`)
+        if (channel?.isTextBased() && channel.type === ChannelType.GuildText) {
+          const fileName = path.basename(filePath)
+          const initialMessage = await channel.send(`Summary for ${fileName}:`)
 
-        const thread = await initialMessage.startThread({
-          name: `Summary Thread for ${fileName}`,
-          autoArchiveDuration: 60
-        })
+          const thread = await initialMessage.startThread({
+            name: `Summary Thread for ${fileName}`,
+            autoArchiveDuration: 60
+          })
 
-        const chunks = splitBySentence(fileContents)
-        for (const chunk of chunks) {
-          await thread.send(chunk)
+          const chunks = splitBySentence(fileContents)
+          for (const chunk of chunks) {
+            await thread.send(chunk)
+          }
+
+          try {
+            fs.renameSync(filePath, path.join(ARCHIVE_PATH, fileName))
+          } catch (error) {
+            console.warn(error)
+          }
         }
-
-        try {
-          fs.renameSync(filePath, path.join(ARCHIVE_PATH, fileName))
-        } catch (error) {
-          console.warn(error)
-        }
+      } catch (error) {
+        console.error('Error reading file:', error)
       }
     }
   })
@@ -96,4 +129,10 @@ client.on(Events.InteractionCreate, async (interaction) => {
   }
 })
 
-client.login(TOKEN).catch(console.error)
+async function startBot (): Promise<void> {
+  await initializeDatabase()
+
+  client.login(TOKEN).catch(console.error)
+}
+
+void startBot()

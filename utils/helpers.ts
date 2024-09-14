@@ -8,7 +8,7 @@ export function getCharacterName (userId: string, guildId: string, channelId: st
   return guildUserCharacterNames.get(guildId)?.get(channelId)?.get(userId) ?? ''
 }
 
-export function addToMap (guildId: string, channelId: string): void {
-  const characters = getAllCharacterAndUserIdsForGuildChannel(guildId, channelId)
+export async function addToMap (guildId: string, channelId: string): Promise<void> {
+  const characters = await getAllCharacterAndUserIdsForGuildChannel(guildId, channelId)
   guildUserCharacterNames.set(guildId, new Map([[channelId, new Map(characters.map(({ userId, name }) => [userId, name]))]]))
 }
