@@ -1,12 +1,12 @@
 import { SlashCommandBuilder } from 'discord.js'
-import { Command } from '../utils/types'
+import { Command } from '../types/command'
 
 const command: Command = {
   data: new SlashCommandBuilder()
     .setName('leave')
     .setDescription('Have the bot leave the voice channel you are in.'),
-  async execute (input) {
-    const { interaction, recordable, connection } = input
+    
+  async execute({ interaction, recordable, connection }) {
     if (connection != null) {
       connection.destroy()
       recordable.clear()

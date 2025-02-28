@@ -1,17 +1,23 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Discord bot for managing voice recordings and file processing",
+  "main": "build/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "serve": "rm -rf build && tsc && node build/index.js",
-    "deploy-commands": "rm -rf build && tsc && node build/deploy-command.js",
-    "delete-commands": "rm -rf build && tsc && node build/delete-command.js",
-    "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' index.ts"
+    "clean": "rm -rf build",
+    "start": "node build/src/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "deploy": "npm run build && node build/src/deploy-command.ts",
+    "delete-commands": "npm run build && node build/src/delete-command.ts",
+    "serve": "npm run clean && npm run build && npm run start"
   },
-  "keywords": [],
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "recording"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
