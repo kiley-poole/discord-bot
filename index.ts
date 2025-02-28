@@ -15,8 +15,12 @@ dotenv.config()
 
 const TOKEN = process.env.DISCORD_TOKEN
 const CHANNEL_ID = process.env.CHANNEL_ID
-const DIRECTORY_PATH = process.env.DIRECTORY_PATH
-const ARCHIVE_PATH = process.env.ARCHIVE_PATH
+const JOURNAL_CHANNEL_ID = process.env.JOURNAL_CHANNEL_ID
+
+const SUMMARY_DIRECTORY_PATH = process.env.SUMMARY_DIRECTORY_PATH
+const SUMMARY_ARCHIVE_PATH = process.env.SUMMARY_DIRECTORY_PATH
+const JOURNAL_DIRECTORY_PATH = process.env.JOURNAL_DIRECTORY_PATH
+const JOURNAL_ARCHIVE_PATH = process.env.JOURNAL_ARCHIVE_PATH
 
 if (!TOKEN) {
   console.error('DISCORD_TOKEN is not set in environment variables.')
@@ -28,23 +32,46 @@ if (!CHANNEL_ID) {
   process.exit(1)
 }
 
-if (!DIRECTORY_PATH) {
-  console.error('DIRECTORY_PATH is not set in environment variables.')
+if (!JOURNAL_CHANNEL_ID) {
+  console.error('JOURNAL_CHANNEL_ID is not set in environment variables.')
   process.exit(1)
 }
 
-if (!ARCHIVE_PATH) {
-  console.error('ARCHIVE_PATH is not set in environment variables.')
+if (!SUMMARY_DIRECTORY_PATH) {
+  console.error('SUMMARY_DIRECTORY_PATH is not set in environment variables.')
+  process.exit(1)
+}
+
+if (!SUMMARY_ARCHIVE_PATH) {
+  console.error('SUMMARY_ARCHIVE_PATH is not set in environment variables.')
+  process.exit(1)
+}
+
+if (!JOURNAL_DIRECTORY_PATH) {
+  console.error('JOURNAL_DIRECTORY_PATH is not set in environment variables.')
+  process.exit(1)
+}
+
+if (!JOURNAL_ARCHIVE_PATH) {
+  console.error('JOURNAL_ARCHIVE_PATH is not set in environment variables.')
   process.exit(1)
 }
 
 // Ensure the directories exist
-if (!fs.existsSync(DIRECTORY_PATH)) {
-  fs.mkdirSync(DIRECTORY_PATH, { recursive: true })
+if (!fs.existsSync(SUMMARY_DIRECTORY_PATH)) {
+  fs.mkdirSync(SUMMARY_DIRECTORY_PATH, { recursive: true })
 }
 
-if (!fs.existsSync(ARCHIVE_PATH)) {
-  fs.mkdirSync(ARCHIVE_PATH, { recursive: true })
+if (!fs.existsSync(SUMMARY_ARCHIVE_PATH)) {
+  fs.mkdirSync(SUMMARY_ARCHIVE_PATH, { recursive: true })
+}
+
+if (!fs.existsSync(JOURNAL_DIRECTORY_PATH)) {
+  fs.mkdirSync(JOURNAL_DIRECTORY_PATH, { recursive: true })
+}
+
+if (!fs.existsSync(JOURNAL_ARCHIVE_PATH)) {
+  fs.mkdirSync(JOURNAL_ARCHIVE_PATH, { recursive: true })
 }
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildMessages] }) as ClientWithCommands
@@ -58,46 +85,58 @@ for (const command of commands) {
   }
 }
 
-client.once('ready', () => {
-  console.log(`Logged in as ${client.user?.tag ?? 'unknown user'}!`)
+async function handleFile(client: ClientWithCommands, filePath: string, archivePath: string, threadName: string, channelID: string) {
+  if (path.extname(filePath) === '.txt') {
+    try {
+      if (!channelID) {
+        return
+      }
+      const fileContents = await fs.promises.readFile(filePath, 'utf-8');
+      const channel = client.channels.cache.get(channelID);
 
-  const watcher = chokidar.watch(DIRECTORY_PATH, {
+      if (channel?.isTextBased() && channel.type === ChannelType.GuildText) {
+        const fileName = path.basename(filePath);
+        const initialMessage = await channel.send(`${threadName} for ${fileName}:`);
+
+        const thread = await initialMessage.startThread({
+          name: `${threadName} for ${fileName}`,
+          autoArchiveDuration: 60
+        });
+
+        const chunks = splitBySentence(fileContents);
+        for (const chunk of chunks) {
+          await thread.send(chunk);
+        }
+
+        try {
+          fs.renameSync(filePath, path.join(archivePath, fileName));
+        } catch (error) {
+          console.warn('Error archiving file:', error);
+        }
+      }
+    } catch (error) {
+      console.error('Error reading file:', error);
+    }
+  }
+}
+
+client.once('ready', () => {
+  console.log(`Logged in as ${client.user?.tag ?? 'unknown user'}!`);
+
+  const originalWatcher = chokidar.watch(SUMMARY_DIRECTORY_PATH, {
     ignored: /^\./,
     persistent: true
-  })
+  });
 
-  watcher.on('add', async filePath => {
-    if (path.extname(filePath) === '.txt') {
-      try {
-        const fileContents = await fs.promises.readFile(filePath, 'utf-8')
-        const channel = client.channels.cache.get(CHANNEL_ID)
+  originalWatcher.on('add', filePath => handleFile(client, filePath, SUMMARY_ARCHIVE_PATH, 'Summary', CHANNEL_ID));
 
-        if (channel?.isTextBased() && channel.type === ChannelType.GuildText) {
-          const fileName = path.basename(filePath)
-          const initialMessage = await channel.send(`Summary for ${fileName}:`)
+  const newWatcher = chokidar.watch(JOURNAL_DIRECTORY_PATH, {
+    ignored: /^\./,
+    persistent: true
+  });
 
-          const thread = await initialMessage.startThread({
-            name: `Summary Thread for ${fileName}`,
-            autoArchiveDuration: 60
-          })
-
-          const chunks = splitBySentence(fileContents)
-          for (const chunk of chunks) {
-            await thread.send(chunk)
-          }
-
-          try {
-            fs.renameSync(filePath, path.join(ARCHIVE_PATH, fileName))
-          } catch (error) {
-            console.warn(error)
-          }
-        }
-      } catch (error) {
-        console.error('Error reading file:', error)
-      }
-    }
-  })
-})
+  newWatcher.on('add', filePath => handleFile(client, filePath, JOURNAL_ARCHIVE_PATH, 'Journal Entry', JOURNAL_CHANNEL_ID));
+});
 
 const recordable = new Set<string>()
 
@@ -129,7 +168,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
   }
 })
 
-async function startBot (): Promise<void> {
+async function startBot(): Promise<void> {
   await initializeDatabase()
 
   client.login(TOKEN).catch(console.error)

@@ -1,0 +1,628 @@
+The infernal winds of Phlegethos churned with heat and ash, the air thick with the acrid tang of sulfur and molten rock. The Heroes of the Lord’s Alliance had spent what felt like an eternity navigating the treacherous lava seas of this hellish domain. Their ship, a vessel powered by infernal mechanisms and guided by Thalrok’s steady hand, came to a grinding halt against a jagged outcropping. Before them loomed Timphylos, a massive volcano that belched smoke and fire into the oppressive sky. At its base, a narrow stairway carved into the volcanic rock led to a glowing portcullis, flanked by two massive, inanimate devilish sentinels.
+
+The group disembarked cautiously. Nitya stretched and yawned, her robes fluttering with the heat rising from the ground. “Shall we?” she asked, gesturing toward the stairs. Bog, ever the curious satyr, grinned and leapt from the ship, his hooves clattering against the scorched stone. “Looks like a party. I’m in,” he declared, his enthusiasm undeterred by the ominous surroundings.
+
+Corman, the stoic human paladin, was less amused. His gaze was sharp as he approached Nitya, throwing the infernal trade writ at her feet. “You’re doing the talking now,” he said coldly, his voice edged with frustration. “You’ve already put all our lives in danger back there. Decided to unilaterally break the rules of this place?” His tone left no room for argument.
+
+Nitya, unruffled, picked up the writ and narrowed her eyes at him. “Corman, why do you speak so harshly to an old woman like myself?” she retorted, her voice dripping with theatrical indignation. “There will come a day, very soon, when Nitya,” she gestured grandly to herself, “will no longer be here to bail you out of all your troubles.” With that, she turned on her heel and strode toward the stairs, leaving Corman to roll his eyes in exasperation.
+
+As the group moved closer to the entrance, the landscape revealed its infernal inhabitants. Lesser devils and duergar—dark dwarves of the underworld—were scattered about, their attention focused on large crystalline protrusions jutting from the volcanic rock. Morty, the undead rogue, and Thalrok, the goliath druid, exchanged glances as they observed the strange rituals being performed. Some devils bathed the crystals in hellfire, others etched runes with meticulous precision, and a few even bled onto the stones, seemingly testing their reactions. Among the crystals, one stood out—a purple shard near the ship, its aura distinct and unsettling. Yet, neither Morty nor Thalrok shared their observations with the rest of the party, choosing instead to keep their thoughts to themselves.
+
+The oppressive atmosphere weighed heavily on the group as they ascended the stairs. The air was alive with the sounds of infernal industry, the clanging of metal and the hiss of steam echoing from beyond the portcullis. At the top of the stairs, a duergar awaited them. His demeanor was one of irritation, his gestures impatient as he addressed the party. “You have business here then? Don’t waste my time,” he barked, his voice gravelly and devoid of warmth. “Solcoins are the currency. If you’re looking for the real deal, consider yourself privileged if you’re allowed access inside the Forge City.”
+
+Eirik, the human fighter, stepped forward, unsure if the duergar spoke Common or merely something that sounded like it. “Sir,” he began respectfully, his tone careful. “We have the blood of a powerful demon for trade. We were told the Mouth of Iron was the best place to conduct such business. We seek passage.” His words hung in the air as the duergar regarded him with a critical eye.
+
+Behind Eirik, Bog fidgeted nervously, his usual bravado melting under the weight of the moment. Morty, ever the pragmatist, leaned in to remind him, “You don’t have to worry about talking to the demons if you don’t speak Infernal.” Bog shot him a sheepish look. “I do,” he admitted, his confidence faltering further. Morty shrugged. “Well, good luck then.”
+
+The duergar’s response remained unreadable as the party awaited his judgment. The gates to the Forge City loomed behind him, glowing with an ominous heat. The path ahead was uncertain, and the stakes were high. But for now, the Heroes of the Lord’s Alliance stood united, their resolve tested but unbroken, ready to face whatever infernal challenges lay within the heart of Timphylos.
+
+The sweltering heat of Phlegethos pressed down on the group as Zerger, the duergar gatekeeper, began his peculiar inspection of the party. His movements were sharp and deliberate, his weathered hands poking and prodding at each adventurer as though verifying their mortal nature. Eirik stiffened as Zerger squeezed his thigh and patted his leg, while Bog flinched slightly when his horns were pointed at with curiosity. Thalrok endured the scrutiny with stoic silence, but when Zerger reached Morty, the undead rogue, his expression twisted into one of bemused disbelief. The duergar shook his head, muttering something under his breath, before turning his attention to Corman. His eyes landed on the paladin’s missing hand, and a small, knowing smile crept across his face. "Sure as salt, these are mortals," he finally declared, his voice gravelly and tinged with amusement.
+
+Zerger informed the group that other mortal traders were also waiting for entrance to Timphylos, but access could only be granted with a valid writ of trade. He gestured toward a bone devil stationed nearby, its hulking form overseeing the crystalline operations. "They don’t take kindly to those who skirt the rules," he warned, his tone almost playful but with an edge of menace. Eirik, ever cautious, refused to relinquish the writ outright, explaining that they couldn’t risk handing over their only safeguard to a stranger. Instead, Nitya waved the document in the air, allowing Zerger to inspect it with a faintly glowing hand—some form of rudimentary verification magic. Satisfied, the duergar retreated and conferred with one of the massive golems guarding the portcullis. Their exchange was brief, punctuated by the same glowing cantrip, before the gates creaked open just enough to reveal a glimpse of the molten forge city within. The heat and light were blinding, and as quickly as the gates had opened, they slammed shut again, leaving the group in limbo.
+
+As the party lingered near the gates, Morty’s attention drifted toward a peculiar purple crystal jutting from the volcanic ground nearby. “We should check out that crystal,” he suggested, his undead voice carrying an unsettling calm. Bog, ever curious, quickly agreed and followed Morty toward the shard. Meanwhile, Eirik, his focus unyielding, spotted a makeshift camp in the distance where a group of haggard merchants had gathered. Without hesitation, he began making his way toward them, his steps purposeful. Nitya flanked him, intrigued but silent, while Corman trailed behind, listening intently.
+
+The camp was a pitiful sight. Lean-tos constructed from charred wood leaned precariously against the harsh environment, and the merchants themselves were in a sorry state. Their skin was mottled and burned, their beasts of burden emaciated and barely standing. They huddled around meager rations, their movements slow and weary. Eirik approached with an air of authority, introducing himself with a courteous bow. “I am Eirik Thorne, Eldritch Knight of Shadowdale, the Legend of Myth Drannor,” he announced, brandishing his weapon, Greybreaker, as though it were a badge of office. His words were met with silence, save for the leader of the merchants, who rose to his feet and began speaking in a guttural, indecipherable tongue. 
+
+Eirik glanced back at Nitya and Corman. “Do either of you understand this? Nitya, do you have a spell that might help?” he asked. Nitya nodded and began casting Comprehend Languages, her hands weaving intricate patterns in the air. As the spell took hold, the imps scattered around the area turned their attention to her, their eyes gleaming with curiosity and malice. They chattered and pointed, their reaction a stark reminder of how rare and dangerous the use of magic could be in this infernal realm.
+
+The merchant leader’s words shifted in Nitya’s ears, transforming from guttural noises into coherent speech. He explained that he and his group were traders from the Plane of Fire, stranded in Phlegethos after their craft had been seized by devils. They had come to trade ore with the denizens of Timphylos but had made no progress in gaining entry. Their supplies were dwindling, and though they were not yet desperate, their endurance was clearly wearing thin. Nitya relayed this information to the group, her voice steady despite the oppressive atmosphere.
+
+Eirik considered the situation carefully. “Perhaps we could strike a deal with these individuals,” he suggested. “We could bring them aboard our craft in exchange for their goods and sell them to Timphylos ourselves.” Nitya shrugged, her expression neutral. “It might be hard to get that across to them,” she admitted. “I can understand their language, but I can’t speak it.”
+
+Acknowledging the difficulty of communication, Eirik stepped back, his mind already turning to other possibilities. Meanwhile, Morty and Bog approached the mysterious crystal, its violet hue pulsing faintly in the dim light. The group was divided, their paths diverging as they pursued different objectives, but the oppressive heat and the ever-watchful eyes of the infernal inhabitants served as a constant reminder of the dangers that lay ahead.
+
+The oppressive heat of Phlegethos bore down on the group as Nitya knelt in the scorched dirt, her staff tracing rudimentary shapes into the ground. She drew a crude boat, a pile of iron ore, and stick figures with flames atop their heads, gesturing toward the group’s vessel docked nearby. Her intent was clear: to communicate their offer to the stranded merchants without the need for words. Eirik observed her work and nodded approvingly, suggesting she add an arrow to indicate their desire for the ore in exchange for passage. “We want your ore, and you get a ride,” he said, his words accompanied by broad gestures.
+
+Corman, ever the stoic paladin, stepped forward to emphasize the message. With his one remaining hand, he gave a thumbs-up, attempting to convey goodwill. The gesture, however, brought a fleeting moment of melancholy to him as he realized he could no longer give a double thumbs-up. Eirik, noticing this, gave a reassuring nod before turning his attention back to the merchants. His voice carried over the barren landscape as he spoke in Common, hopeful that some part of his meaning might be understood. “We will give you passage if you give us the ore,” he declared, his arms waving to reinforce the point.
+
+The merchant leader, his ashen skin glistening with sweat, studied the drawings in the dirt. His expression shifted, and he muttered a single word: “Agreement.” Nitya, eager to solidify the deal, nodded vigorously. “Yes! Yes!” she exclaimed, her enthusiasm unrestrained. But the moment of relief was short-lived. The merchants, one by one, drew their weapons, their movements deliberate and measured. Eirik tensed, hand instinctively moving toward Greybreaker, but he held his ground, his instincts urging caution. “Maybe they’re just performing some sort of trade ritual,” he muttered, his voice calm but wary.
+
+To everyone’s surprise, the merchants then cast their weapons to the ground—six gleaming longswords, their edges catching the infernal light. The leader spoke again, his tone firm but devoid of malice. “No harm in trade.” Eirik, puzzled, pointed to the swords and then to the crude drawing in the dirt. “Are these the ore you’re offering?” he asked, his voice tinged with confusion. The leader shook his head, gesturing toward the massive oxen-like creatures laden with supplies. “Ore. Rock. Material,” he clarified, his frustration evident.
+
+Eirik turned to his companions, his brow furrowed. “What do we do? Do we take the swords and let them board? Do we leave them here?” Nitya, ever pragmatic, shrugged. “Swords are better than nothing. Let them on the boat. Maybe we can sell the swords later.” With a resigned sigh, Eirik picked up the weapons and, in a gesture of goodwill, broke a ration in half, tossing it to the merchant leader. “This is all I have,” he said, his tone sincere. The leader caught the ration and held it aloft, a glimmer of hope sparking in the eyes of his companions. They began to saddle their beasts, moving toward the group’s vessel with newfound purpose.
+
+Meanwhile, Bog and Morty had wandered toward the mysterious purple crystal they had noticed earlier. The shard pulsed with an otherworldly energy, its surface marred by scorch marks and ichor—evidence of imps that had fallen victim to its volatile power. A duergar stood nearby, barking orders at the remaining imps, who hesitated to approach the shard. The air around the crystal was charged, a faint hum resonating in the ears of those who ventured too close.
+
+Bog, ever curious, extended a hoof to touch the edge of the crystal’s glowing radius. A rush of energy coursed through him—not painful, but electric, like the charge of a storm before it breaks. “It’s… powerful,” he murmured, his voice tinged with awe. Morty, observing from a safe distance, noted the crystal’s distinct energy. “It’s nothing like the death fog we encountered before,” he remarked, his undead intuition confirming the uniqueness of the shard’s power.
+
+The duergar continued to corral the imps, their reluctance to engage with the crystal evident in their skittish movements. Bog and Morty exchanged a glance, their curiosity piqued but tempered by caution. Whatever the crystal’s purpose, it was clear that it held a significance beyond their immediate understanding.
+
+As the group’s paths diverged, the tension of their surroundings remained a constant reminder of the dangers they faced. Whether bartering with desperate merchants or unraveling the mysteries of a volatile shard, the Heroes of the Lord’s Alliance pressed on, their resolve tested at every turn in the infernal depths of Phlegethos.
+
+The sweltering heat of Phlegethos continued to press down on the group as they gathered near the massive purple crystal, its presence looming over the volcanic landscape like an otherworldly beacon. Bog gave Morty a silent thumbs-up, signaling that the crystal didn’t seem immediately dangerous, though its strange energy was undeniable. The duergar overseeing the imps near the shard turned his attention to the group, his expression one of pride as he gestured toward the towering crystal.
+
+“Mortals,” the duergar began, his voice gravelly but carrying an air of satisfaction. “We may have found good fortune. This is a magnificent sight—something you’ve never seen before. Progress and innovation! The endless pursuit of refinement. This is perfection.” His words brimmed with pride, though he offered no further explanation, as if expecting the crystal to speak for itself.
+
+Morty, ever the skeptic, stepped forward. “Why are the devils so hesitant around it?” he asked, his undead voice calm but probing. 
+
+The duergar chuckled, gesturing toward the crystal as he explained, “This method of refinement is not of the Hells. This… this was discovered in Avernus. The Hells are ever-changing, and what works in Avernus—well, let’s just say we intended to make our supply chain a little more efficient.” His words hinted at experimentation, but there was a glibness to his tone that left questions unanswered.
+
+Thalrok, his towering goliath form casting a shadow over the duergar, inquired further. “What do you intend to use this crystal for?” he asked, his voice steady and measured.
+
+The duergar shrugged, his indifference evident. “I’ve no idea what it’s used for. But its price in soul coins would buy me passage anywhere in the planes.” His eyes gleamed with the prospect of wealth, but his ignorance of the crystal’s true purpose was clear.
+
+Bog, ever the curious satyr, pressed him further. “How does one turn a red crystal into this purple one? What’s the process?”
+
+“Trial and error,” the duergar replied, his tone dismissive. “A lot of trial and error.”
+
+Bog raised an eyebrow, his gaze flicking to the imps who were keeping their distance from the shard. “Your helpers seem a bit scared of it. Is it dangerous?”
+
+The duergar laughed, removing a glove and tossing it toward the crystal. The glove disintegrated instantly, turning to dust before their eyes. He turned back to Bog with a smirk. “Discretion,” he said simply.
+
+Bog nodded, his curiosity unabated. “How do you intend to harvest it if you can’t touch it?”
+
+“That’s Timphal’s business,” the duergar answered, his tone growing impatient. “I’m just here to make sure not every imp in Timphal dies trying to grow this thing.”
+
+As the group continued their inquiries, Thalrok asked the duergar about the mysterious “lord of the mountain” he had mentioned earlier. At the question, the duergar visibly shuddered, and the imps scattered in panic, fleeing across a nearby bridge. A heavy presence filled the air, and the group turned to see a massive figure materialize behind them.
+
+Standing nine feet tall, the figure radiated power. Its devilish form was imposing, its eyes gleaming with a mixture of amusement and menace. In a voice that echoed both in the air and in their minds, it spoke. “Speak of the devil, and he shall appear.”
+
+The archdevil Pimthal the Forged had arrived.
+
+Pimthal’s gaze swept over the group, lingering on Bog with a glint of approval. The satyr gave a respectful nod, acknowledging the unspoken camaraderie in their shared horns. Morty bowed deeply, his undead form rigid with deference, while Thalrok offered a half-bow and addressed the devil. “Timphal, Archdevil of the Forge. Is this your crystal? Can you tell us more about it?”
+
+The archdevil’s voice carried a tone of indulgence as he replied, “Magnificent, isn’t it? Knowledge finds its way to those who deserve it. This crystal represents innovation, ambition, and the endless potential of the forge.” He gestured around, his clawed hand glowing faintly with reddish energy. “Mortals are drawn here, like ore into the crucible, to be shaped by the fires of fate. Tell me, what is it you seek? Power? Knowledge? Or perhaps…” His gaze shifted to Thalrok, his words heavy with implication. “…to strike the anvil of fate and see what shape emerges?”
+
+Thalrok, his curiosity piqued, asked, “What is the Anvil of Fate?”
+
+Pimthal chuckled, a deep, resonant sound. “A metaphor,” he said, his tone almost teasing. “This one,” he added, gesturing to Thalrok, “will need coaching in the ways of diplomacy.”
+
+The archdevil extended a massive hand, its claws surging with energy, and gestured for the writ of trade. Nitya, her robes damp with sweat and her expression wary, stepped forward and placed the writ into his hand before retreating several paces. Pimthal examined the document, runes glowing faintly as he activated its hidden magics. A smirk crossed his face as he handed it back. “The case is prepared,” he said. “Though I have not yet received word to send it back. No matter. You may take it with you if you’d like.”
+
+The group exchanged glances, the weight of the moment settling over them. Pimthal’s presence was both a boon and a danger, his power undeniable. The crystal, the writ, and the archdevil’s cryptic words all hinted at deeper mysteries yet to be unraveled. For now, they stood at the crossroads of ambition and peril, their next move uncertain in the infernal depths of Timphylos.
+
+The sweltering heat of Phlegethos bore down upon the group as Nitya clutched her staff tightly, her knuckles whitening as she avoided the archdevil Pimthal’s piercing gaze. The infernal lord’s presence was overwhelming, his every word a mixture of menace and allure. "Come," he commanded, his voice reverberating with authority as he pointed at Thalrok and Eirik. "If Ilskazarnchuk wishes to have his shipment sent early, then it shall be yours. Retrieve it from the Fort Cullis. Go."
+
+Eirik exchanged a wary glance with Thalrok before nodding. The human fighter approached the portcullis, where one of the colossal iron golems had brought forth a massive case. It was a coffin-sized container forged from infernal iron, its surface gleaming with an otherworldly sheen. Though it looked impervious to damage, there was an unsettling fragility to it. The weight of the case was evident, and Eirik flexed his arms, preparing to lift it.
+
+Thalrok joined him, his goliath strength a reassuring presence. Together, they attempted to hoist the case, but its immense weight proved to be a challenge. Eirik grunted, adjusting his grip as he crouched into a deadlift position. "This thing weighs more than a dragon’s hoard," he muttered, sweat dripping from his brow. Despite their combined efforts, it was clear they were struggling.
+
+Thalrok, ever resourceful, decided to take a different approach. With a deep breath, he began to shift, his form twisting and expanding as he transformed into a massive hornet. His wings buzzed with power, and his many legs grasped the case with ease. The ash-laden winds of Phlegethos made flight difficult, but Thalrok’s determination was unwavering. With great effort, he carried the case and deposited it onto the deck of their ship, the infernal iron container thudding heavily against the wood.
+
+Meanwhile, back at the archdevil’s side, Pimthal’s attention turned to Corman. The paladin stood tall, though unease flickered in his eyes as the devil loomed over him. "Tell me, mortal," Pimthal began, his voice a silken snare. "What became of your hand? What wonders do you seek from Timphylos?"
+
+Corman hesitated, his gaze dropping to the stump where his hand once was. "It was taken during a trial," he admitted, his tone steady but cautious. "I didn’t complete it properly, but my team succeeded. I don’t seek anything from you." He tried to maintain his composure, though the archdevil’s presence was suffocating.
+
+Pimthal’s lips curled into a knowing smile. "You are a competitor," he said, his words dripping with temptation. "Born to win, yet you have tasted failure. Do you wish to never lose again?"
+
+The question hung in the air, and Corman, driven by his unyielding desire to succeed, answered without fully grasping the weight of his words. "Of course," he said simply, his voice resolute.
+
+The archdevil extended a clawed hand toward the paladin’s missing limb. Corman hesitated, his brow furrowing as he regarded the gesture with suspicion. "Is this a joke?" he asked, his tone sharp.
+
+"Look again," Pimthal replied, his voice laced with amusement. Corman’s eyes widened as he saw his hand restored, whole and unblemished. He flexed his fingers, disbelief etched across his face. "What have you done?" he demanded, his voice trembling.
+
+"A favor," Pimthal said smoothly. "Nothing more. I am but an abiding host for the envoys of the Proprietor. If you seek victory, know that Timphylos provides only that to its patrons."
+
+Corman’s breathing quickened, the implications of the devil’s words weighing heavily on him. His faith, his very identity, felt shaken to its core. Yet Pimthal offered no further explanation, leaving the paladin to grapple with the consequences of his choice.
+
+As Thalrok returned from the ship, his hornet form shedding ash and soot, Pimthal’s attention shifted once more. His gaze settled on Morty, the undead rogue, who stood silently, his skeletal frame unnervingly still. "It has been some time since I’ve seen a dead spirit wander to Phlegethos," the archdevil mused. "What manner of armament or boon do you seek from Timphylos?"
+
+Morty inclined his head respectfully, his voice calm as he replied, "I was summoned for the Thayne Games. My purpose is to ensure my companions succeed in the trials that test our strength, wits, and skills. Victory is my ambition."
+
+Pimthal chuckled, a low, resonant sound that sent a shiver through the air. "Mortal affairs are games," he said, his tone almost mocking. "What nature of games do you speak of?"
+
+Morty explained the trials they faced, his words deliberate and measured. Pimthal listened intently, his expression inscrutable. "Very well," the archdevil said at last. "Let it be known that Timphylos rewards ambition. But remember, every victory comes at a price."
+
+As the group reconvened near the ship, the weight of their interactions with Pimthal lingered heavily. The infernal lord’s cryptic words and the strange power of the crystal they had encountered hinted at deeper mysteries yet to unravel. For now, they prepared to press onward, their resolve tested and their path fraught with peril.
+
+The air shimmered with heat as the archdevil Timphalos, the Forged, extended his clawed hand outward, summoning forth a cascade of artifacts that clattered to the ground before the adventurers. Weapons of unimaginable craftsmanship, armor gleaming with infernal runes, spell scrolls brimming with forbidden knowledge, and amulets that seemed to pulse with raw power spilled out in a growing pile. Each item exuded an allure that was almost magnetic, as if tailored to the deepest desires of each onlooker.
+
+Morty, the undead rogue, stood apart from the others, his hollow gaze fixed on the pile. He shook his head, summoning his psychic daggers into his skeletal hands, their faint glow a stark contrast to the infernal artifacts. “Material possessions are of some use,” he said, his voice calm and measured, “but I rely on my own talents.”
+
+Timphalos regarded Morty with a bemused expression, his glowing eyes narrowing. “Do you seek an end to your suffering, then?” he asked, his voice carrying both curiosity and mockery. “Would you join the ranks of the living once more?”
+
+Morty’s response was immediate and resolute. “No. I am not interested in that.”
+
+The archdevil’s gaze swept over the group, his tone shifting to one of feigned disappointment. “Rare is it that mortals come here and leave empty-handed. To do so would be seen as… impolite. And I, the Forged, would not wish to be an ungracious host.” His words hung in the air, a mixture of invitation and challenge. “A gift, then, for each of you. Not counting the hand I restored to your paladin.”
+
+Eirik stepped forward, his movements deliberate as he bowed deeply. “Archdevil Timphalos, the Forged, the Mouth of Iron,” he began, addressing the infernal lord with careful reverence. He held up Greybreaker, the weapon already marked by the Nine Hells, and then produced the vial of succubus blood. “I offer you something rare: the untainted blood of a powerful succubus. What can be made of this?”
+
+Timphalos’s eyes gleamed with interest as he leaned closer, inspecting the vial. “The blood of a creature whose very essence is deception,” he mused, his tone almost reverent. “A rare thing indeed. Tell me, mortal, what method of preservation have you used to keep it so fresh?”
+
+Eirik hesitated, but the archdevil continued without waiting for an answer. “This is valuable, yes, but pales in comparison to what I might give in return. What if I enhanced this weapon you carry, this Greybreaker? Or perhaps an elixir to make your dreams come true? You mortals disappoint me with your lack of ambition.” His words were a taunt, a challenge to Eirik’s resolve.
+
+Eirik’s jaw tightened, his gaze unwavering. “I don’t intend to deal in paltry mortal victories,” he said, his voice steady and deliberate. “I seek strength. I seek to shift my standing in the grander schemes of power. Not just a competitor in the games, but a true force.”
+
+Timphalos’s interest sharpened, his expression one of approval. “Why not remain here, then?” he proposed, his voice devoid of sarcasm. “Join the legions of Phlegethos. Learn the martial ways of devilry, fight in the Blood War, and emerge as a warrior of unparalleled prowess. A mere two or three centuries of service would suffice.”
+
+Eirik pondered the offer, his mind racing with possibilities. But before he could respond, Timphalos turned his attention to Thalrok, the goliath druid. “In the others, I sense ambition and greed. But in you, I see the ignorance of the material plane. Yet I also sense longing. You’ve lost something, haven’t you? What if I told you your friend is not lost? That I could return him to you?”
+
+Thalrok stepped forward, his massive form casting a shadow over the archdevil. “What’s lost is lost,” he said, his voice steady but tinged with sorrow. “They are a part of us now, and we must move on.”
+
+Timphalos’s laughter echoed through the infernal landscape, a sound that sent shivers down the spines of even the bravest in the group. “Your words are steeped in ignorance,” he said, his tone both mocking and menacing. “Your friend is not lost. I know where he is and can provide you the means to return him to the material plane.”
+
+Thalrok’s eyes narrowed. “And what would you ask in return?”
+
+“A minor favor,” Timphalos replied, his tone almost dismissive. “But such matters can be discussed later.”
+
+Finally, the archdevil produced a golden rose, its petals gleaming with an otherworldly light. He held it aloft, turning it so that each member of the group could see the images flickering within: scenes of the Blood War, of demons and devils locked in eternal combat, of battalions stretching into a blood-red horizon. “Decades of experience,” he said, his voice reverent. “The knowledge of the finest soldiers who have fought in the Blood War. All of it, yours, should you accept.”
+
+The group hesitated, the weight of the offer pressing down on them. Eirik, however, was not finished. He stepped forward once more, his voice cutting through the tension. “I see what you’re offering, and I won’t deny that it’s tempting. But tell me, what does Hell need more? Another pawn trapped in Phlegethos, or a blade wielding your will in the mortal realm? Give me what I need, and I will ensure your reach extends further than before.”
+
+Timphalos’s eyes narrowed, his interest piqued. “Are you pledging your service to the archdevil Timphalos?”
+
+Eirik removed his gauntlet, exposing his bare hand. “A mortal tool, bound but unbound,” he replied, his voice steady.
+
+Timphalos extended his massive claw, a smirk playing on his lips. “Then we have an accord,” he said.
+
+Eirik placed his hand in the archdevil’s, sealing a pact that would ripple far beyond the infernal depths of Phlegethos.
+
+The oppressive heat of Phlegethos was unrelenting as the archdevil Timphalos, the Forged, loomed over the group, his presence a mix of overwhelming authority and sinister allure. His clawed hand extended toward Eirik, sealing the pact that had just been made. Eirik, now bound in service to the infernal lord, felt an unsettling absence of sensation as their agreement was concluded. There was no surge of power, no arcane shimmer—only a lingering unease, as though the true nature of the deal lay hidden beneath layers of infernal intent.
+
+Timphalos, his voice resonating with a mixture of satisfaction and curiosity, turned his attention back to Eirik. "You have pledged yourself to Phlegethos. Now tell me, mortal, what is it you desire? What shall the greatest origin in all the Planescape grant you?"
+
+Eirik stepped forward, his movements deliberate as he placed his broken plate armor and the weapon Greybreaker at the archdevil’s feet. "Make me your vessel," he declared, his voice steady despite the weight of his words.
+
+Timphalos regarded the items with a critical eye. The broken plate disappeared with a flick of his claw, vanishing into some unseen dimension. As for Greybreaker, the archdevil examined it closely, his expression shifting to one of mild disdain. "It seems the Proprietor has already meddled with this weapon," he remarked. "Tell me, mortal, whom do you seek to strike down with it? What enemies do you wish it to destroy?"
+
+Eirik, his resolve unshaken, turned the question back on Timphalos. "I am now a tool of Phlegethos, am I not? Tell me, who are Phlegethos’ enemies? Who in the mortal realm would you have me pursue?"
+
+The archdevil’s lips curled into a smirk as he gestured toward the massive iron case that had been delivered to the group earlier. "The Proprietor has much to reveal to you," he said. "Deliver this to him, and within it, you will find the armaments necessary to fulfill your role as a vessel of Hell’s might." His satisfaction at the arrangement was palpable, his fiery gaze lingering on Eirik for a moment longer before shifting to the rest of the group.
+
+Timphalos cast a final, sweeping glance over the adventurers, his tone inviting yet laced with menace. "And what of the rest of you? Does no one else wish to entreat with the Forged? I am an entity of power, capable of granting your deepest desires. Speak now, and let us make an accord."
+
+Bog, who had been silently observing the exchange, stepped forward at last. The satyr’s usually carefree demeanor was replaced by a grim determination as he addressed the archdevil. "I seek revenge," he began, his voice steady. "Revenge for those who killed my family and destroyed my village. I want the destruction of Thay, brought about by my hand."
+
+Timphalos tilted his head, considering the satyr’s words. "The destruction of Thay," he repeated, his tone contemplative. "In fire and brimstone, by your doing?"
+
+Bog nodded, his resolve unwavering. "Yes. I want it to be known that their demise comes from me. I will bring about the death of Thay, no matter the means."
+
+The archdevil extended his hand, his expression one of approval. "So be it," he said. "You shall play a key and critical role in the fall of the Thayan regime. Deliver the case to the Proprietor, and within it, you will find the tools necessary to ensure their destruction."
+
+Bog hesitated for only a moment before grasping Timphalos’s clawed hand, sealing the pact. A weight seemed to lift from his shoulders, replaced by a grim sense of purpose. He knew the risks of dealing with devils, but his thirst for vengeance outweighed any caution.
+
+Meanwhile, Nitya, overwhelmed by the intensity of the situation, turned and began to walk away, her staff clutched tightly in her hands. She wanted nothing more than to distance herself from the archdevil and the deals being struck. Morty, the undead rogue, followed suit, bowing respectfully to Timphalos before retreating in silence. Thalrok, ever the stoic goliath druid, remained still, his thoughts his own as he considered whether to engage further.
+
+Timphalos, his fiery gaze sweeping over the group one final time, seemed satisfied with the outcomes. "See to it that the case is delivered," he said, his voice carrying an air of finality. "Within it lies your destiny, forged in the fires of Phlegethos. Go now, and fulfill your roles in the grand design."
+
+As the group prepared to depart, the weight of their choices hung heavily in the air. Eirik and Bog, now bound to the infernal lord’s will, carried the burden of their pacts, while the others grappled with the implications of what had transpired. The path ahead was fraught with peril, but one thing was certain: their journey through the hellish depths of Phlegethos was far from over.
+
+The sweltering heat of Phlegethos bore down on the group as Timphalos, the Forged, reappeared before Nitya. The archdevil’s presence was suffocating, his form towering over the charred bridge as his voice resonated not through the air but directly in their minds. His clawed hand extended toward the wizard, and with a cold, calculated tone, he began to recite the laws of the Hells. Each clause rolled out with deliberate precision, his words laced with menace.
+
+Nitya’s body trembled as she was lifted into the air, her limbs stretched unnaturally as if mounted on an invisible frame. Her companions watched in horror, their attention riveted as the archdevil’s accusations cut through the oppressive silence. “Did you not think your trespasses—your summoning of abyssal entities—would not draw the ire of our lord Asmodeus?” he demanded, his voice a thunderous echo in their minds. “You have forfeited your soul to this kingdom. I will take it as eternal payment.”
+
+As the words left his lips, Nitya’s eyes darted toward Corman. Her voice, strained and barely audible, whispered, “Henk’s alive! Don’t forget!” It was all she could muster before her body began to dissolve, melting into a grotesque pool of blood-red goo. Her screams echoed through the air, a haunting symphony of pain that transitioned into muffled cries as her form was consumed. A single soul coin hissed and steamed where she had been, the last remnant of her existence.
+
+Corman dropped to his knees, his face a mask of disbelief and anguish. “Wait! Stop! What are you doing to her? Take the hand—give her back to us!” he pleaded, but Timphalos was unmoved. The archdevil flicked the soul coin into his grasp and turned his fiery gaze upon the rest of the group. “Mind the code of conduct,” he warned, his tone sharp. “It would be… unadvisable to return to the Proprietor with fewer mortals than expected.”
+
+Eirik, his face impassive, stepped forward and bowed before the archdevil. Without a word, he moved past Nitya’s remains, his focus already shifting to the journey ahead. But Corman was not so easily consoled. As Eirik passed, the paladin grabbed his shoulder, his voice trembling with desperation. “We’ve got to get her back. She’s in the coin! What can we trade?”
+
+Eirik shrugged him off, his tone cold. “Nitya’s gone. Just like Henk.”
+
+Corman’s fury boiled over. “Fuck you, devil worshiper!” he spat, his voice a mixture of anger and despair.
+
+Eirik didn’t falter. “And you keep squawking.”
+
+Turning to Thalrok, Corman’s voice grew more frantic. “Thalrok, we have to have something to trade! We’ve got to get her back, right?”
+
+The goliath druid hesitated, his usual calm demeanor shaken. “I don’t know,” he admitted. “I don’t think we have anything he’d want.”
+
+Corman’s desperation deepened. “Should we fight him?”
+
+Thalrok shook his head firmly. “Absolutely not. I mean, I *could* take him, but it’s not a good idea.”
+
+Bog, who had been silent until now, chimed in with a grim suggestion. “What about the hand? Maybe I could trade the hand for her.”
+
+Timphalos, overhearing the exchange, dismissed the notion with a wave of his claw. “She is in unimaginable pain,” he said, his voice devoid of sympathy. “Such is the price.”
+
+Corman’s shoulders sagged as he touched the scorched ground, his voice a solemn vow. “I will find you, Nitya. And Henk too.” His gaze lingered on the molten landscape before he rose to follow the group, his resolve unshaken despite the overwhelming odds.
+
+Timphalos vanished in a flash of red, leaving the adventurers to grapple with their loss. The group boarded their ship, the atmosphere heavy with tension. The vessel, now both less crowded and more so—filled with the foreign merchants and their enormous beasts—seemed to groan under the weight of their collective despair.
+
+Corman, still reeling, approached Bog, his voice sharp with accusation. “Where the hell were you?”
+
+Bog, leaning casually against the ship’s railing, shrugged. “I was… busy. Look, we’re out of our element down here. We don’t have control over what happens. The only thing we can do is follow the writ, which Nitya clearly didn’t.”
+
+Corman’s frustration boiled over. “We just let a devil take Nitya, and now Eirik has signed up to be a devil worshiper!”
+
+Bog sighed, his usual humor absent. “We’re in Hell, Corman. What did you expect? We’re playing by their rules now.”
+
+Thalrok, standing nearby, added quietly, “Let’s focus on getting out of here. We can’t change what’s happened.”
+
+As the ship began its journey across the lava seas, the group was left to contemplate the cost of their actions. Nitya’s screams, faint and distant, seemed to linger in their ears—a haunting reminder of the price of defiance in the Nine Hells. With their navigator gone and their path uncertain, the Heroes of the Lord’s Alliance pressed onward, their unity fractured but their resolve unbroken.
+
+The oppressive heat of Phlegethos bore down on the adventurers as they embarked on the next leg of their infernal journey aboard the Blackthorn. The ship, a grim vessel powered by infernal mechanisms, churned through the molten seas with a steady rhythm. The air was thick with the tang of sulfur, and the occasional patter of blood rain did little to alleviate the suffocating atmosphere. The group, still reeling from the loss of Nitya and the weight of their individual choices, found themselves navigating not only the treacherous terrain but also the complex dynamics within their ranks.
+
+Corman stood at the edge of the ship, his gaze fixed on the churning lava below. His thoughts were a whirlwind of regret and frustration. This was not the life he had envisioned—far from the simple dreams of lifting barrels to impress onlookers. Instead, he found himself in the depths of Hell, surrounded by what he could only describe as a band of degenerates. The restoration of his hand, a gift from the archdevil Timphalos, brought him no solace. It felt too normal, too perfect, as if mocking him with its seamless integration into his body. When Bog approached with a grin, raising his hand for a high-five to "test it out," Corman simply turned away, his mood too dark to entertain such levity.
+
+Thalrok, now fully attuned to the ship’s infernal engine, took his place at the helm. His thoughts drifted to what Hell had taken from them and what it had offered in return. The balance of loss and gain weighed heavily on his mind as he channeled his willpower into the ship. Memories of his time in the mountains, honing his skills and finding equilibrium, seemed to guide him now. With a newfound mastery, the goliath druid no longer struggled with the engine’s complexities. The ship responded to his touch with precision, its movements smooth and efficient.
+
+Eirik, on the other hand, felt a strange sense of belonging. His pact with Timphalos had shifted his perspective, and the infernal landscape no longer seemed as hostile. To him, it was an opportunity—a chance to wield greater power and extend his influence. As he charted their course through whirlpools and mirages, his mind buzzed with possibilities. The River Styx loomed ahead, a reminder of the dangers that awaited, but Eirik faced it with confidence. He was, after all, a vessel of Hell now.
+
+The group’s attention turned to the merchants aboard their ship. Their language, a chattering tongue none could decipher, created a barrier that Corman sought to overcome. With rudimentary sign language, he attempted to convey a message of unity and cooperation. His gestures, though earnest, seemed to cause confusion. One of the merchants, his tone fiery and his demeanor intense, stepped forward and made a “come here” motion with his hand. Corman hesitated but approached cautiously, offering his longsword as a gesture of goodwill. The merchant took the blade and threw it onto the deck, his actions inscrutable.
+
+The tension on the ship grew as the merchants mimicked Corman’s earlier gestures, raising their hands above their heads in what seemed like a parody of surrender. Bog, ever the provocateur, hopped to the side and repeated the motion, watching with amusement as the merchants mirrored him. Corman, frozen in place, blinked in confusion, unsure of what he had done to spark such a reaction. When the merchant warlock approached and reached for his hammer, Corman hesitated before offering the weapon. The merchant discarded it as well, his intentions still unclear.
+
+The group exchanged uneasy glances, the interaction with the merchants adding another layer of uncertainty to their already precarious situation. The oppressive heat, the weight of their losses, and the looming presence of the River Styx all served as constant reminders of the peril they faced. Yet, despite the fractures within their ranks, the adventurers pressed on, their resolve tested but not broken.
+
+As the Blackthorn cut through the molten seas, the journey ahead promised no respite. The reformatory awaited, a place shrouded in mystery and danger. Each member of the group carried their own burdens—Corman’s grief, Thalrok’s contemplation, Eirik’s ambition, and Bog’s thirst for vengeance. The path forward was uncertain, but one thing was clear: they were far from the end of their trials in the infernal depths of Phlegethos.
+
+The infernal heat of Phlegethos bore down on the adventurers as the tension aboard the Blackthorn reached a boiling point. The merchants, their guttural language incomprehensible, gestured wildly toward the dockside establishment that loomed in the distance. The Gilded Maw, a structure that jutted from the molten plain like a beacon of temptation, seemed to call to everyone aboard the ship. Its allure was irresistible to all but the goliath druid, Thalrok, whose iron will remained unshaken amidst the magical compulsion.
+
+Corman, his frustration mounting, stood near the ship’s helm. His earlier attempts at communication with the merchants had ended in confusion and an unspoken hostility that still lingered. Now, as the foreign traders pointed fervently toward the Gilded Maw, their desperation only added to the cacophony of voices clamoring for the ship to change course. Corman turned to Thalrok, his tone imploring yet edged with irritation. “Look, Thalrok, it’s dangerous with these guys on board. They clearly want to go. Why won’t you listen to them?”
+
+Thalrok’s hands gripped the ship’s controls firmly, his stoic expression betraying no hint of doubt. “I’ve held to my values this entire journey,” he replied, his voice calm but resolute. “Why won’t you trust me? Remember what happened to Henk. Remember what happened to Nitya. This place is a trap.”
+
+Eirik, standing nearby, felt the pull of the Gilded Maw more strongly than he cared to admit. His normally sharp mind was clouded by a compulsion he couldn’t explain, and his frustration boiled over. “This guy,” he said, pointing at Corman, “gave up a hand and got it back miraculously. The least you could do, Thalrok, is let him smack some ass with it!” The words tumbled out of his mouth before he could stop them, and he blinked, confused by his own outburst. “I don’t even know where that came from,” he muttered, shaking his head.
+
+Bog, sensing the rising tension, began tapping a rhythm on his drum in an attempt to lighten the mood. The beat was jaunty, almost mocking the chaos around him. “Come on, Thalrok,” he said with a grin. “What’s the harm in stopping for a drink? Maybe they’ve got some booze. Maybe they’ve got some answers. Who knows?”
+
+Morty, flipping a soul coin idly between his skeletal fingers, added his voice to the growing chorus. “Thalrok, if we’re already in Hell, what’s the harm in taking a peek? It’s not like it could get worse, right?”
+
+Despite their arguments, Thalrok’s resolve did not waver. He tightened his grip on the helm, steering the Blackthorn away from the Gilded Maw. The ship groaned as it cut through the molten sea, its path resolute. The further they sailed from the establishment, the more desperate the voices on board became. The merchants, still gesturing wildly, began shouting in their strange tongue, their cries growing louder and more frantic. It was as if they believed salvation lay within the walls of the Gilded Maw, and their desperation was infectious.
+
+Corman, his patience fraying, stepped closer to Thalrok. “Why won’t you do this for me?” he asked, his voice tinged with both anger and pleading. “I know I disagree with Eirik a lot, but I think he’s in the right here. Even the merchants want to go. Why are you being so damn stubborn?”
+
+Thalrok’s gaze remained fixed ahead, his voice steady. “Because I’m the only one thinking clearly right now. This place isn’t salvation. It’s a trap. And I won’t steer us into it.”
+
+Eirik, his frustration bubbling over, slammed a fist against the railing. “You’re ruining the trip, Thalrok!” he shouted. “We’ve been through Hell—literally—and you can’t even let us have a moment to rest? What’s wrong with you?”
+
+The shouting grew louder, the voices of the adventurers and the merchants blending into a chaotic din. The magical compulsion tugged at their minds, urging them to turn back, to give in to the promises of the Gilded Maw. Even Corman, who had resisted at first, found himself faltering. “Thalrok,” he said, his voice quieter now but no less urgent, “I’m begging you. Just this once, listen to the rest of us.”
+
+Thalrok’s jaw tightened, his resolve like a mountain against the storm of voices. “No,” he said firmly. “I won’t.”
+
+As the ship sailed further from the Gilded Maw, the compulsion began to weaken, its grip on their minds loosening with each passing moment. The voices in their heads, seductive and persuasive, faded into silence. The merchants, realizing their cries were in vain, slumped against the ship’s railing, their expressions a mixture of defeat and exhaustion.
+
+Corman turned away, his shoulders slumping as he muttered under his breath. Eirik, still seething, stalked off to the other side of the ship. Bog resumed his drumming, the jaunty rhythm now tinged with frustration. Morty, ever the pragmatist, flipped his soul coin once more and pocketed it, his expression unreadable.
+
+Thalrok, alone at the helm, allowed himself a small sigh of relief. The Gilded Maw was behind them, but the journey ahead promised no respite. The River Styx loomed on the horizon, its dark waters a reminder of the trials yet to come. For now, the group pressed onward, their unity strained but their mission unbroken.
+
+The molten seas of Phlegethos churned beneath the Blackthorn as the tension aboard the ship reached a breaking point. The infernal heat bore down on the adventurers and the merchants alike, exacerbating the already volatile atmosphere. The merchants, desperate and half-starved, gestured wildly toward the dockside establishment they had passed earlier, their guttural cries unintelligible to the party but laden with urgency. Their desperation was palpable, and it was clear they would not relent until their demands were met.
+
+Thalrok, the goliath druid, stood resolute at the helm, his broad shoulders and unyielding demeanor a testament to his determination to keep the ship on course. The pull of the establishment’s allure had weakened as they gained distance, but the merchants’ frantic behavior had only intensified. Some had begun to clamor against Thalrok directly, their voices rising in pitch and volume. Among them, three had taken on a more aggressive stance, their eyes flashing with a dangerous edge.
+
+Corman, the human paladin, watched the scene unfold with mounting frustration. His gaze flicked between the merchants and Thalrok, his own patience wearing thin. “Thalrok, they’re hungry, desperate. They’re going to turn violent if we don’t do something,” he said, his voice sharp with urgency. “Why won’t you just listen to them? We need to go back.”
+
+Thalrok’s expression remained impassive as he responded, his voice calm but firm. “This place is a trap, Corman. You’ve seen what happens when we give in to this realm’s temptations. I won’t steer us into danger.”
+
+Eirik, the human fighter, stood nearby, his frustration simmering beneath the surface. “You’re going to get us killed with this stubbornness,” he muttered, his tone laced with irritation. “You can’t just ignore the fact that they’re about to riot.”
+
+Bog, the satyr monk, leaned casually against the railing, his usual carefree demeanor replaced by a hint of unease. “Look, Thalrok,” he said, tapping a rhythm on his drum to calm his nerves. “Maybe a quick stop wouldn’t hurt. Just let them off the boat, and we’ll be on our way.”
+
+Thalrok, however, was unmoved. With a sharp inhale, he released his grip on the helm momentarily and cloud-jaunted into the midst of the merchants. His massive form towered over them as he let out a thunderous roar, the sound reverberating through the air like a clap of thunder. The force of his bellow sent three of the merchants stumbling back, their faces pale with shock. The others, however, took the opportunity to press their advantage, their desperation driving them to action.
+
+One merchant, his eyes alight with a dangerous glint, stepped forward, his hand reaching for a makeshift weapon. Thalrok’s gaze hardened as he cloud-jaunted back to the controls, his voice steady as he addressed the group. “They’re getting violent. If they can’t be reasoned with, I’ll deal with them.”
+
+Corman’s eyes widened as he realized Thalrok’s intent. “You’re not seriously going to—”
+
+Before he could finish, Thalrok strode back toward the merchants, his movements deliberate and unyielding. He approached the nearest aggressor, a wiry man with a sharp, feral look, and without hesitation, he grabbed him by the collar. With a single, powerful motion, Thalrok hurled the merchant over the side of the ship. The man’s cries were swallowed by the molten sea below, the hiss of his demise a grim punctuation to the act.
+
+The remaining merchants froze, their earlier bravado replaced by a mix of fear and fury. Two of them, undeterred, began to draw weapons and cast spells, their intent clear. The tension aboard the Blackthorn reached a fever pitch as the adventurers braced for the inevitable conflict.
+
+Morty, the undead rogue, perched above the fray, observed the scene with a detached calm. He flipped a soul coin idly between his fingers, his hollow gaze fixed on the merchants. “Well,” he said, his voice carrying an unsettling calm, “it seems we’ve reached the point of no return.”
+
+Bog, his earlier nonchalance evaporating, stepped forward, his fists clenched. “Thalrok, you’ve really done it now,” he muttered, his tone a mix of frustration and resignation. “Guess we’re doing this.”
+
+Eirik, standing near Thalrok, drew Greybreaker, his expression grim. “We could’ve avoided this,” he said, his voice low. “But here we are.”
+
+Corman, his frustration boiling over, turned to Thalrok with a glare. “This is on you,” he said, his voice sharp. “I hope you know what you’re doing.”
+
+Thalrok’s response was a simple nod, his focus unwavering. “I do.”
+
+As the merchants prepared to retaliate, the adventurers readied themselves for battle. The Blackthorn, now a battleground, swayed gently on the molten sea, its infernal mechanisms humming steadily. The oppressive heat of Phlegethos bore down on them all, a constant reminder of the hellish realm they found themselves in. The group, fractured and strained, faced yet another trial in their journey through the Nine Hells, their unity tested and their resolve pushed to its limits.
+
+The oppressive heat of Phlegethos seemed to intensify as tensions aboard the Blackthorn reached their breaking point. The merchants, their desperation boiling over into outright hostility, had pushed the group into a corner. Thalrok, the goliath druid, still manned the helm, resolute in his decision to steer the ship away from the Gilded Maw. But the merchants, no longer content to plead or gesture, had begun drawing weapons and preparing spells. The air was thick with the promise of violence.
+
+Thalrok, his patience worn thin, let his frustration boil over. With a deep, guttural growl, he shifted into the form of a Hodag—a massive, reptilian beast with powerful limbs and sharp claws. The transformation was swift and visceral, his goliath features melting away into the monstrous visage of the Hodag. Without hesitation, he lunged at the merchant warlock who had been the most vocal and aggressive. In a blur of motion, the Hodag’s jaws clamped down on the warlock’s neck, and with a swipe of his massive paw, the unfortunate man was hurled over the side of the ship. The merchant’s scream was cut short as his body hit the molten sea below, erupting in a gout of fire before being sucked beneath the surface.
+
+The remaining merchants froze for a moment, their eyes wide with shock and fear. But the respite was brief. Two of the merchants, already armed and prepared, reacted swiftly, their movements fueled by a mix of desperation and rage. The others hesitated, their instincts telling them to flee or fight but unable to decide which.
+
+Morty, perched high in the crow’s nest, took in the scene below with his usual calm detachment. The undead rogue’s hollow gaze settled on one of the armed merchants, and with a flick of his wrist, he summoned one of his psychic daggers. The blade shimmered faintly in the infernal light as Morty took careful aim. His steady hand ensured the dagger struck true, embedding itself in the merchant’s side. The man staggered, clutching at the wound, but remained on his feet, his resolve unbroken.
+
+Bog, the satyr monk, leapt into action next. With his characteristic agility, he bounded across the deck, closing the distance to one of the hostile merchants in an instant. As he landed, his hooves clattered against the wooden planks of the ship, and he swung his staff in a wide arc. The blow connected with the merchant’s midsection, driving the air from his lungs and forcing him to stumble back. Bog followed up with a swift attempt to grapple the man, his wiry frame belying his surprising strength. The merchant struggled against him, but Bog’s grip held firm.
+
+Corman, standing at the edge of the fray, hesitated. The paladin’s mind raced as he tried to reconcile the chaos unfolding before him. His gaze flicked to Thalrok, still in his monstrous Hodag form, then to the merchants who had drawn their weapons. “This didn’t have to happen,” he muttered, his voice tinged with frustration and regret. But there was no time for second-guessing. Drawing his longsword, Corman stepped forward, ready to defend his companions.
+
+Eirik, meanwhile, had positioned himself near the stern of the ship. The human fighter’s expression was grim as he watched the battle unfold. He drew Greybreaker, the weapon’s infernal markings glowing faintly in the dim light. “Well,” he said to no one in particular, “if it’s a fight they want, it’s a fight they’ll get.” With that, he charged forward, his blade aimed at one of the remaining merchants.
+
+The deck of the Blackthorn erupted into chaos as the battle began in earnest. The merchants, though desperate and outnumbered, fought with a ferocity born of their dire circumstances. Their weapons clashed against the adventurers’, the sound of steel meeting steel punctuated by the occasional burst of magic. The infernal heat of Phlegethos seemed to amplify the intensity of the conflict, the air alive with the crackle of fire and the roar of combat.
+
+Thalrok, still in his Hodag form, turned his attention to the next nearest merchant. The beast let out a guttural snarl as it lunged forward, its claws raking across the man’s chest and sending him sprawling to the deck. The merchant groaned in pain, his weapon slipping from his grasp as he struggled to rise.
+
+Morty, from his vantage point above, continued to rain psychic daggers down upon their foes. Each blade found its mark with precision, further weakening the merchants’ resolve. Bog, still grappling with one of the men, tightened his hold, his muscles straining as he forced the merchant to the ground.
+
+Corman and Eirik fought side by side, their movements coordinated and efficient. Corman’s longsword flashed in the dim light as he parried an incoming strike, while Eirik’s Greybreaker carved through the air with deadly intent. Together, they pushed back the remaining merchants, their combined strength overwhelming the desperate men.
+
+As the battle raged on, it became clear that the merchants stood little chance against the seasoned adventurers. One by one, they fell, their cries of pain and defiance swallowed by the oppressive heat of Phlegethos. When the last of them was subdued, the deck of the Blackthorn fell silent once more, save for the labored breathing of the victors.
+
+The group stood amidst the aftermath, their weapons still drawn and their expressions grim. The bodies of the fallen merchants lay scattered across the deck, a stark reminder of the cost of their journey through Hell. Thalrok shifted back into his goliath form, his features hard as he surveyed the scene. “It had to be done,” he said simply, his voice devoid of emotion.
+
+Corman shook his head, his grip on his longsword tightening. “Did it?” he asked, his tone heavy with doubt. But there was no answer to be found, only the oppressive silence of the infernal realm.
+
+The Blackthorn continued its journey across the molten seas, the weight of their actions hanging heavily over the group. The River Styx loomed ahead, its dark waters promising further trials to come. For now, the adventurers pressed on, their unity tested but their resolve unbroken. The path forward was uncertain, but they knew there was no turning back.
+
+The deck of the Blackthorn erupted into chaos as the merchant warlocks, driven by desperation and rage, launched their attack. The infernal heat of Phlegethos bore down on the adventurers, the oppressive atmosphere amplifying the intensity of the battle. The merchants, though fewer in number, fought with a ferocity born of their dire circumstances, their weapons and spells clashing against the seasoned adventurers in a desperate bid for survival.
+
+Bog was the first to act, his satyr agility carrying him into the fray with a burst of speed. He targeted one of the warlocks, his staff whirling in a flurry of strikes. The merchant, clearly skilled, managed to evade the first blow, but Bog’s relentless assault didn’t stop there. With a determined swing, he struck again, the impact reverberating through the air. Not content to simply strike, Bog unleashed his Flurry of Blows, a barrage of rapid attacks that forced the warlock onto the defensive. The satyr monk then disengaged with practiced ease, leaping back several feet to reposition himself, his movements fluid and precise.
+
+Thalrok, in his monstrous Hodag form, charged into the melee with a roar that shook the very deck of the ship. The massive creature barreled toward a merchant, its primal instincts driving it to attack. With a devastating bite, the Hodag clamped its jaws around the man, lifting him off the ground before hurling him aside like a ragdoll. The merchant’s cry was cut short as he hit the deck with a sickening thud. Thalrok turned his attention to another nearby foe, his claws raking through the air as he continued his rampage.
+
+Eirik, ever the stalwart fighter, moved with purpose toward the nearest enemy. Greybreaker, his infernal-marked weapon, gleamed ominously as he swung it with precision. The first strike connected, cutting through the merchant’s defenses and leaving a deep gash. Without hesitation, Eirik followed up with a second attack, his blade moving in a deadly arc. The merchant crumpled under the assault, and Eirik, seizing the momentum, stepped forward to engage the next foe. His focus was unyielding, his movements efficient and deadly.
+
+Above the fray, Morty observed the chaos with his usual detached calm. The undead rogue, perched high in the ship’s rigging, took careful aim with his psychic daggers. His first throw found its mark, the blade piercing through a merchant’s side with unerring accuracy. Morty’s second attack was just as precise, the psychic energy tearing through his target with devastating effect. The rogue’s vantage point gave him a clear view of the battlefield, allowing him to pick off enemies with calculated precision.
+
+Corman, the human paladin, invoked the power of Lathander as he charged into the fight. His weapon glowed faintly as he swung it with righteous fury, the blade cutting through the air toward the merchant captain. “In the name of—” Corman began, but he faltered, catching himself before invoking a name he wasn’t supposed to. Instead, he simply shouted, “Die!” and brought his sword down in a powerful strike. The captain, protected by a magical shield, managed to deflect the blow, but Corman pressed on, swinging again with unwavering determination. Though his smite failed to land, his resolve remained unbroken.
+
+The merchant captain, a cunning and dangerous foe, retaliated with a series of swift attacks. His poisonous blade struck out at Eirik, but the fighter’s magical defenses held firm, deflecting the strikes. Frustrated, the captain gestured with his hand, attempting to cast a spell, but Eirik’s resistance to magic rendered the effort futile. Undeterred, the captain turned his attention to the Hodag, stabbing at the monstrous form with his rapier. The attacks missed their mark, the Hodag’s thick hide proving too resilient for the captain’s blade.
+
+Bog, seeing an opportunity to strike at the captain, darted forward once more. His staff whirled in a series of strikes, but the captain’s uncanny reflexes allowed him to evade the attacks. Frustrated but undeterred, Bog focused his energy, channeling his ki into a powerful necrotic strike. The blow landed with devastating force, the dark energy coursing through the captain and leaving him visibly weakened.
+
+As the battle raged on, the adventurers coordinated their efforts, each playing to their strengths. Morty continued to rain down psychic daggers from above, his attacks precise and unrelenting. Thalrok, still in his Hodag form, tore through the remaining merchants with primal ferocity, his claws and teeth leaving a trail of destruction. Eirik and Corman fought side by side, their combined strength overwhelming the remaining foes. Bog, ever the agile monk, darted in and out of combat, delivering punishing blows before retreating to safety.
+
+The tide of battle turned decisively in the adventurers’ favor. One by one, the merchants fell, their cries of pain and defiance fading into the oppressive heat of Phlegethos. When the last of them was defeated, the deck of the Blackthorn fell silent once more, save for the labored breathing of the victors.
+
+The group stood amidst the aftermath, their weapons still drawn and their expressions grim. The bodies of the fallen merchants lay scattered across the deck, a stark reminder of the cost of their journey through Hell. Thalrok shifted back into his goliath form, his features hard as he surveyed the scene. “It had to be done,” he said simply, his voice devoid of emotion.
+
+Corman shook his head, his grip on his longsword tightening. “Did it?” he asked, his tone heavy with doubt. But there was no answer to be found, only the oppressive silence of the infernal realm.
+
+The Blackthorn continued its journey across the molten seas, the weight of their actions hanging heavily over the group. The River Styx loomed ahead, its dark waters promising further trials to come. For now, the adventurers pressed on, their unity tested but their resolve unbroken. The path forward was uncertain, but they knew there was no turning back.
+
+The battle on the deck of the Blackthorn raged with an intensity that matched the infernal heat of Phlegethos. The merchant warlocks, driven by desperation and fury, clashed with the adventurers in a chaotic skirmish. Each side fought with everything they had, the stakes as high as the molten seas that churned beneath them.
+
+Bog, ever the agile satyr monk, darted into the fray with his staff spinning in a blur of motion. His strikes were precise and relentless, battering one of the warlocks into retreat. With an acrobatic leap, Bog disengaged, his hooves clattering against the deck as he retreated to a higher vantage point. The merchant leader tried to retaliate, slashing at Bog as he moved, but the satyr’s speed was unmatched. With a final flourish, Bog perched atop the rigging, observing the battlefield with a keen eye. “Too slow!” he called down, his grin wide despite the chaos below.
+
+Thalrok, still in his monstrous Hodag form, loomed over the combatants like a primal force of nature. The beast reared up on its hind legs, letting out a guttural roar that echoed across the deck. The display was terrifying, a primal assertion of dominance that sent three of the merchant warlocks sprawling to the ground, their courage momentarily shattered. Thalrok’s claws raked through the air, and with a swipe, he targeted one of the prone enemies, his primal strike hitting with devastating force. The Hodag’s sheer presence was enough to unnerve even the most stalwart foes.
+
+Eirik, the steadfast human fighter, advanced with calculated precision. Greybreaker, his infernal-marked weapon, gleamed as he swung it down on one of the fallen warlocks. The strike was brutal, cutting deep into his opponent. Without missing a beat, Eirik moved to the next target, his blade carving through the air in a deadly arc. The merchant leader, however, proved to be a cunning foe. As Eirik swung at him, the leader executed a flawless backflip, leaving behind an illusory double that unleashed a flurry of spectral blades at both Eirik and Morty. The fighter gritted his teeth as the illusion dissipated, his focus unbroken. “Slippery bastard,” he muttered, adjusting his stance to press the attack.
+
+Morty, the undead rogue, remained perched high above the chaos, his hollow gaze fixed on the battlefield. From his vantage point, he hurled psychic daggers with unerring accuracy, each blade striking its mark. One dagger buried itself in the side of a warlock who had begun casting a Hellfire spell, disrupting the incantation and forcing the caster to falter. “Stay focused, Morty,” he murmured to himself, his voice calm amidst the turmoil. When the merchant leader’s illusory double targeted him with spectral blades, Morty deftly dodged, his uncanny reflexes sparing him from the worst of the attack. He returned fire with another psychic dagger, his aim as precise as ever.
+
+Corman, the human paladin, invoked his divine power as he charged into the fray. His longsword glowed faintly with holy light as he swung at the merchant leader, aiming to smite the cunning foe. But the leader’s uncanny dodge allowed him to evade the strike, his movements almost supernatural in their fluidity. Frustrated but undeterred, Corman turned his attention to one of the prone warlocks, bringing his blade down with righteous fury. The paladin’s strikes were relentless, his determination to protect his companions driving him forward.
+
+The merchant leader, realizing the tide was turning against him, used his legendary abilities to perform a misdirecting escape. With a graceful backflip reminiscent of a dancer, he vaulted to the upper deck, leaving his illusory double to cover his retreat. The double flung spectral blades at Morty and Eirik, but the adventurers weathered the assault with grit and resilience. From his new vantage point, the leader surveyed the battlefield, his expression a mix of frustration and calculation.
+
+Despite the merchants’ desperate efforts, the adventurers’ coordination and skill proved overwhelming. Thalrok’s Hodag form continued to dominate, his claws and teeth tearing through the remaining warlocks. Bog, from his elevated position, rained down strikes whenever an opening presented itself, his movements fluid and unpredictable. Eirik and Corman worked in tandem, their combined strength overpowering the remaining foes. Morty’s psychic daggers found their marks with deadly precision, each throw weakening the merchants further.
+
+As the last of the warlocks fell, the deck of the Blackthorn fell silent, save for the labored breathing of the victors. The bodies of the defeated merchants lay scattered across the deck, their weapons and spells no match for the seasoned adventurers. Thalrok shifted back into his goliath form, his expression grim as he surveyed the aftermath. “It’s done,” he said simply, his voice heavy with the weight of their actions.
+
+Corman sheathed his longsword, his gaze lingering on the fallen. “This didn’t have to happen,” he muttered, his tone filled with regret. But there was no answer, only the oppressive silence of the infernal realm.
+
+The Blackthorn continued its journey across the molten seas, the River Styx looming ahead. The group, though victorious, felt the weight of their choices pressing down on them. The path forward was uncertain, and the trials of Phlegethos were far from over. Yet, despite the fractures within their ranks, the adventurers pressed on, their resolve unbroken.
+
+The infernal heat of Phlegethos bore down on the adventurers as the battle aboard the Blackthorn reached a fever pitch. The merchant warlocks, driven by desperation and the hopelessness of their situation, fought with a ferocity that pushed the group to their limits. Each clash of steel and surge of magic resonated across the deck, the molten sea below hissing in response to the chaos above.
+
+One of the merchants, emboldened by sheer desperation, made a reckless attempt to shove Thalrok’s monstrous Hodag form off the ship. The towering beast, however, was an immovable force. With a low growl, Thalrok dug his claws into the deck, his sheer strength and the divine aura emanating from Corman’s presence making the merchant’s effort futile. The Hodag barely flinched as the man stumbled back, his attempt a mere annoyance to the druid’s primal might.
+
+The merchant leader, a cunning and agile foe, focused his attention on Bog. With a sharp motion, he unleashed the same magical maneuver he had used earlier, but Bog’s innate resistance to magic as a satyr allowed him to shrug off the spell’s influence. The leader, visibly frustrated, lunged forward, his blade aimed at Bog’s chest. The satyr, quick as ever, deflected the strike with a graceful twist, redirecting part of the force back toward the assailant. Bog’s grin widened as he brushed off the ashy blood that spattered him, giving a thumbs-up to Morty, who had been watching from his perch.
+
+Morty, ever the opportunist, saw his chance to strike. With a flick of his skeletal wrist, he sent a psychic blade flying toward the merchant leader. The blade hit its mark with deadly precision, tearing through the man’s chest and sending him staggering. Dark, ashen blood poured from the wound, staining the deck and further weakening the leader. Bog seized the moment, stepping forward with a mocking taunt. “Come here, you slippery bitch,” he growled, attempting to grapple the now-wounded leader. But before he could act, the merchant collapsed, his body crumpling to the ground. A sickening crack echoed as bones broke, and the once-agile foe lay lifeless.
+
+The remaining merchants, witnessing their leader’s fall, froze in place. Their weapons clattered to the deck as they raised their hands in surrender, their expressions a mix of fear and resignation. Bog, ever practical, reached into his bag and pulled out a length of canvas. “Alright,” he said, moving quickly to restrain one of the men. “Let’s end this. No more fighting.”
+
+The group paused, the tension lingering in the air as they weighed their options. Morty, perched above, suggested coldly, “We could use them as soul coins.” His tone was calm, almost indifferent, as if the suggestion was merely a practical solution rather than a moral dilemma.
+
+Bog, crouched over one of the surrendered men, hesitated for a moment before shaking his head. “They’ve given up,” he said firmly. “I’m not killing someone who’s surrendered.” He began to pin the man down, ensuring he couldn’t move or cast any spells. “We need to figure out how to restrain him so he can’t use magic.”
+
+Eirik, however, had no such reservations. His face was set in a grim expression as he grabbed the lifeless body of the merchant leader by the nape of his neck. Dragging the corpse toward the edge of the ship, he muttered, “For Timphalos,” and unceremoniously dropped the body into the molten sea below. The corpse ignited instantly, consumed by the infernal heat, leaving only a faint wisp of smoke in its wake.
+
+The final merchant, now restrained beneath Bog, began muttering a phrase in his native tongue. His voice was low and broken, the words repeating like a prayer or a lament. Eirik turned back, his gaze cold as he pointed to the man. “He’s a magic user,” he warned. “Be careful with him. If we’re keeping him alive, we need to make sure he can’t cast anything.”
+
+Bog nodded, his weight pressing down on the defeated man. “Suggestions?” he asked the group, his tone practical. “How do we stop him from using magic? Otherwise, I’ll just stay on top of him until we figure it out.”
+
+Thalrok, having reverted to his goliath form, leaned against the helm, his expression unreadable. “We could gag him,” he suggested. “Or bind his hands. Most magic requires one or the other.”
+
+Corman, still catching his breath from the battle, stepped forward. “We’ll bind him,” he said, his voice steady. “But we need to decide what to do with him after that. He could be dangerous.”
+
+As the group deliberated, the oppressive heat of Phlegethos seemed to press down on them even harder, a reminder of the hellish realm they found themselves in. The battle was over, but the consequences of their actions lingered. The Blackthorn continued its journey across the molten seas, the River Styx looming ever closer. The adventurers, their unity tested and their resolve strained, pressed onward, knowing that the trials of the Nine Hells were far from over.
+
+The infernal heat of Phlegethos bore down on the Blackthorn as it cut through the molten seas, carrying its weary passengers toward the looming structure of the Reformatory. The group stood scattered across the deck, the aftermath of their battle with the merchant warlocks still fresh in the air. The defeated leader’s body had long since been consigned to the lava below, and the remaining captive sat bound and catatonic, his mind wiped clean by Morty’s grim experiment with the waters of the River Styx.
+
+Corman stood apart from the others, his expression troubled as he glanced between the restrained merchant and the horizon. The paladin’s earlier certainty had given way to unease. “These are mortals, right?” he asked aloud, his voice uncertain. “The temple said they were mortals. That means the laws don’t apply to them here, correct?”
+
+Morty, perched nearby and idly flipping a soul coin between his skeletal fingers, gave a nonchalant shrug. “Anything goes,” he replied, his tone devoid of concern. 
+
+Corman frowned, his inner conflict evident as he continued, “Maybe we should keep him alive. He could be useful… as a bargaining chip. Demons might trade for him.”
+
+Morty tilted his head, his hollow gaze fixed on Corman. “Corman thinks that?” he asked, his voice laced with dry amusement. “Since when are you the one advocating for hostages?”
+
+Corman hesitated, his discomfort growing. “They attacked us,” he reasoned, though the conviction in his voice wavered. “They’re not good people. They’re in Hell for a reason.”
+
+As if to punctuate the moral ambiguity of their situation, Morty reached for one of his flasks of River Styx water. “Let’s see what happens,” he said, his tone casual, as though discussing a simple experiment rather than a potentially life-altering act. He uncorked the flask and tilted it, letting a single drop fall onto the merchant’s skin.
+
+Corman turned away sharply, his face contorting in a mix of revulsion and frustration. “I can’t handle this,” he muttered under his breath. “I can’t watch any more of this evil.”
+
+The drop of Styx water sizzled as it made contact with the merchant’s flesh, the reaction immediate and horrifying. The man’s body convulsed, his muscles seizing as necrotic energy coursed through him. His eyes rolled back, and his mouth opened in a silent scream. Morty, ever the pragmatist, observed the effects with detached curiosity. “Looks like it’s working,” he remarked. “He’s losing everything—memory, personality, the whole package. A blank slate.”
+
+Bog, who had been crouched nearby, watching the restrained merchant with a mixture of pity and practicality, shook his head. “What’s your story, Morty?” he asked, his tone incredulous. “You’re just experimenting on him now?”
+
+Morty shrugged, unbothered by the satyr’s disapproval. “It’s a science project,” he replied simply. “We’re in Hell. Might as well learn something.”
+
+Eirik, standing at the helm, glanced back at the scene with a grim expression. “We’re keeping him alive for now, right?” he asked, though his tone suggested he wasn’t particularly invested in the answer. “If he’s got no memory, we can still use him for something.”
+
+Bog sighed, his frustration evident. “I was just restraining him,” he said, gesturing to the tied-up merchant. “Morty’s the one who wanted to mess with him.”
+
+Thalrok, leaning against the railing in his usual stoic manner, regarded the group with a measured gaze. “If we’re bringing him with us, we need to decide what he’s worth,” he said. “Otherwise, we’re just dragging dead weight.”
+
+The conversation was interrupted as the ship approached its destination. The Reformatory loomed ahead, a foreboding structure belching dark plumes of ash into the air. Its jagged silhouette was a stark reminder of the dangers that awaited within. Eirik, ever the navigator, guided the Blackthorn smoothly toward a docking point, the molten sea around them calming to a glassy stillness as they neared the shore.
+
+As the group prepared to disembark, Corman hesitated again, his gaze lingering on the catatonic merchant. “Shouldn’t we bring him with us?” he asked, his voice tinged with uncertainty. “He might be worth something here.”
+
+Eirik pointed at Bog. “He’s the one who wanted to keep him,” he said flatly.
+
+Bog rolled his eyes. “I was just stopping him from killing us,” he retorted. “Morty’s the one who decided to experiment.”
+
+Morty, unbothered by the blame, stepped forward. “Fine,” he said, his tone dismissive. “I’ll carry him. He’s my science project, after all.”
+
+With the merchant slung over Morty’s shoulder, the group made their way toward the Reformatory. The oppressive heat and the ashen air seemed to grow heavier with each step, the weight of their journey pressing down on them. The staircase leading up to the Reformatory’s entrance stretched before them, a daunting path that promised no respite.
+
+As they climbed, the tension between the adventurers remained palpable. Corman’s inner conflict, Morty’s cold pragmatism, and Bog’s reluctant practicality clashed against the backdrop of their shared mission. Yet, despite their differences, they pressed onward, their resolve tested but not yet broken.
+
+The Reformatory awaited, its dark halls and unknown dangers promising further trials. The group, burdened by their choices and the weight of their journey, prepared to face whatever lay ahead. For in the depths of Hell, there was no room for hesitation, only the relentless march toward survival and the hope of escape.
+
+The searing heat of Phlegethos clung to the adventurers as they stood before the imposing stone door of the Reformatory. Its surface, textured like sandstone, bore no visible mechanisms or handles—just a smooth, impenetrable barrier. Eirik approached first, holding the group’s writ of trade aloft and rapping on the door’s surface. The sound was hollow, echoing faintly before fading into the oppressive silence. Behind him, Corman leaned closer to Thalrok, his voice a hushed whisper. “We need to find a way out of here. I don’t care if it means leaving Eirik behind. The longer we stay, the worse this gets.”
+
+The group’s attention shifted as Morty and Bog, scanning the area, caught sight of a figure scaling the side of a nearby structure. The humanoid moved with a strange purpose, its presence unsettling. “That’s Victor Doon,” Morty muttered, though whether it was a jest or a genuine observation was unclear. Bog, ever irreverent, quipped, “Eirik, Thay, Thayan, Lesvath,” earning a bemused chuckle from the group.
+
+Eirik, unperturbed, turned his focus back to the door, running his hands along its edges. “It’s magical,” he announced after a moment. “Bound in place by some kind of enchantment. There’s no natural mechanism here—just a slab of stone suspended by magic.”
+
+Before he could investigate further, a figure emerged from the shadows—a tall elf with an aura of quiet intensity. His eyes locked onto Eirik, and his voice, though calm, carried an urgency that demanded attention. “Mythilforged, I see. Tell me of Myth Drannor. Does it still stand true? Does it stand tall? Where did you get your weapon?”
+
+Eirik studied the stranger, his brow furrowed in thought. The elf’s words hinted at a connection to the ancient city, but his tone suggested a man out of time. “What’s your name, traveler?” Eirik asked cautiously. “What do you mean, is Myth Drannor still standing?”
+
+The elf’s hands clenched into fists, his knuckles white as he stared at the ground. “So it is gone?” he murmured, his voice heavy with despair. “Was this worth it? It’s gone?” He turned away from the group, his shoulders slumping as though bearing the weight of centuries.
+
+Corman, watching the exchange with suspicion, leaned toward Bog and Thalrok. “Are you seeing this? Eirik signed up with a devil, and now he’s trusting this guy without a second thought? This has trap written all over it.”
+
+Bog shrugged, his expression cautious but pragmatic. “I don’t trust anyone down here, but we could use allies. Keep him on a short leash, though.”
+
+Thalrok, ever the voice of reason, added, “Eirik’s goal is the same as ours—to get out of here. If this guy can help, we might as well see where it leads.”
+
+Eirik, meanwhile, stepped forward, his tone softening. “I’m Eirik Thorne, of Shadowdale. I grew up near the ruins of Myth Drannor and have spent years exploring its remnants. There’s power there still, but the city is in ruins. Apparitions, wraiths, and worse haunt its remains.”
+
+The elf introduced himself as Vaelith, his voice tinged with sorrow. “I am—or was—a warrior of Myth Drannor. I’ve been here for… I believe the contract was for 750 years, though time flows strangely in this place. I served in the Weeping War. And now…” He trailed off, his gaze distant. “I know the way into the Reformatory. Follow me.”
+
+Corman’s suspicion deepened as Vaelith led the group toward the door. “You first, then,” he said sharply, his tone leaving no room for argument. Vaelith complied, stepping forward. The stone door dissolved into sand, cascading to the ground in a soft hiss. Beyond lay a dim corridor, its walls lined with faintly glowing purple orbs that hovered a few feet above the ground.
+
+Vaelith moved with purpose, but as he passed through the orbs, they shattered against his body, releasing bursts of energy. He ignored the damage, his focus unwavering. Corman, following closely, wasn’t as fortunate. The orbs seemed drawn to him, shattering against his armor in rapid succession. “Don’t you live here?” he snapped at Vaelith. “Aren’t you a creature of the Hells? What was that?”
+
+Vaelith offered no response, his silence as impenetrable as the door had been moments earlier. Bog, attempting to leap over the orbs, miscalculated and stumbled into their range. The orbs swarmed him, shattering against his body with an almost deliberate precision. “Oh, fuck,” he groaned, brushing off the residual energy. “That was not the plan.”
+
+The group pressed on, navigating the corridor with a mix of caution and frustration. Vaelith’s cryptic demeanor and the corridor’s hidden dangers only heightened the tension. Corman, ever suspicious, kept his eyes fixed on the elf, his hand never straying far from his weapon. “This guy’s leading us into a trap,” he muttered to himself, though loud enough for Bog and Thalrok to hear.
+
+As they moved deeper into the Reformatory, the oppressive atmosphere of Phlegethos seemed to close in around them. The faint glow of the orbs cast eerie shadows on the walls, and the air grew thick with the weight of unspoken truths. Vaelith’s knowledge of the Reformatory was undeniable, but his motives remained shrouded in mystery. For now, the group had little choice but to follow, their path uncertain and their trust fragile.
+
+The oppressive heat of Phlegethos lingered as the adventurers pressed deeper into the Reformatory, their path illuminated by the faint glow of infernal orbs hovering ominously in the corridors. The tension among the group was palpable, each member grappling with their own thoughts as they navigated the treacherous halls. Vaelith, the enigmatic elf who had joined their ranks, led the way with an air of quiet authority, his familiarity with the infernal prison evident in his confident stride.
+
+The group had encountered the first obstacle—a corridor filled with floating, fragile orbs that shattered painfully upon contact. Bog, ever the agile satyr, attempted to leap through the gauntlet but misjudged his landing, stumbling into the orbs and wincing as they shattered against his skin. "Ah, damn it," he muttered, brushing off the lingering sting. Thalrok, ever resourceful, used the last of his cloud-jumping magic to bypass the danger, appearing beside Corman in a swirl of mist. Morty, the undead rogue, relied on his spectral daggers, teleporting effortlessly through the corridor in a blink. Each member navigated the hazard in their own way, though the ordeal left them weary and on edge.
+
+As they regrouped, Vaelith pressed forward into the next chamber. A massive red crystal dominated the room, its ominous glow casting eerie shadows across the walls. Two hooded figures in tattered red robes moved about the space, their twisted faces betraying their once-human origins. They polished the crystal with meticulous care, their movements mechanical and devoid of life. Eirik, ever cautious, approached Vaelith and held up the writ of trade. "Will these beings respect this?" he asked, gesturing toward the reformists. "Will they let us pass unharmed?"
+
+Vaelith extended his hand expectantly, and Eirik hesitated only briefly before handing over the writ. The elf approached the reformists, speaking in Infernal with a commanding tone. "These mortals are guests, as decreed by this writ. Let them pass without harm." The reformists turned their twisted faces toward Vaelith, their movements slow and deliberate. One raised an arm, pointing to a door beyond the crystal, but said nothing. Vaelith returned the writ to Eirik with a shrug. "They’ll let us through, but the writ doesn’t guarantee protection from traps. Proceed with caution."
+
+The group moved cautiously into the next room, where a massive, ironbound book wreathed in flame stood at the center. The flames, though intense, emitted no heat, and the book seemed to pulse with a strange energy. On the back of the door they had just entered was an infernal mirror, its surface gleaming with a dark, otherworldly sheen. As the group stepped into the room, the book vibrated, and a voice echoed through the chamber. "Declare your purpose. Speak only truth, lest you be judged."
+
+A compulsion gripped each of them, an overwhelming need to answer truthfully. Vaelith spoke first, his voice steady and resolute. "I serve Belial. My purpose here is to complete a service, to return a soul to this prison. I have encountered these mortals along the way." The book remained silent, seemingly satisfied with his response.
+
+Corman stepped forward, his voice tinged with frustration. "I’m here to find a way out of the Hells. To leave this place behind." The compulsion eased, and he felt no judgment from the book.
+
+Bog, ever the wildcard, shrugged nonchalantly. "I’m just along for the ride. Made my deal, now I’m seeing it through." The book reacted subtly, a faint red glow emanating from Bog’s body. Though it caused no pain, the glow was unsettling, a mark of something unspoken.
+
+Eirik’s turn came, and he spoke with conviction. "I seek power, control, and ascension. I aim to become something greater." The book accepted his answer without incident.
+
+Morty, the undead rogue, bowed his head slightly. "I’m here for the games. To succeed with these mortals, though we’ve already lost one." His voice carried a note of solemnity, a rare acknowledgment of their fallen companion, Nitya. The book remained silent, its judgment withheld.
+
+With their truths spoken, the doors on either side of the room creaked open, inviting them further into the Reformatory. The group exchanged wary glances, the weight of their confessions lingering in the air. Eirik turned to Vaelith, his tone inquisitive. "Do you know which way to go?"
+
+Vaelith gestured confidently. "I’ve been here many times. Who are you seeking?"
+
+"Shankarnarth," Eirik replied. "We’re here to do business with him."
+
+Vaelith nodded knowingly. "Ah, Shankarnarth. Follow me."
+
+The group proceeded through the left door, their steps cautious as they entered a corridor lined with more infernal iron. The oppressive atmosphere of the Reformatory seemed to grow heavier with each step, the air thick with the scent of sulfur and ash. Vaelith led the way, his familiarity with the prison guiding them through its labyrinthine halls.
+
+As they moved deeper into the Reformatory, the tension among the group remained palpable. Corman’s mistrust of Vaelith simmered beneath the surface, while Bog’s glowing aura served as a constant reminder of the strange forces at play. Eirik’s resolve, however, seemed unshaken, his focus unwavering as he followed the elf’s lead. Thalrok and Morty, ever pragmatic, kept their thoughts to themselves, their eyes scanning the shadows for any sign of danger.
+
+The journey ahead was fraught with uncertainty, the Reformatory’s secrets waiting to be uncovered. But for now, the group pressed on, their purpose clear and their unity tenuously intact. In the depths of the Hells, there was no room for hesitation—only the relentless pursuit of survival and the hope of escape.
+
+The suffocating heat of Phlegethos enveloped the adventurers as they followed Vaelith through the dim corridors of the Reformatory. The halls were alive with the quiet hum of infernal energy, and the group’s path was occasionally interrupted by peculiar sights: bearded devils pushing carts with the lethargy of janitors, their wagons laden with unknown burdens. Behind the transparent, tempered-glass doors lining the hallway, suspended souls writhed in noiseless torment, their agony a silent testament to the horrors of this infernal prison. Vaelith paid these scenes no mind, his demeanor suggesting such sights were routine.
+
+The group’s journey led them to a new chamber, where a diminutive, gnome-like devil oversaw an elaborate ritual platform. The air was thick with an oppressive energy as the creature meticulously tortured a soul trapped within the ritual’s confines. Eirik and Vaelith exchanged a brief glance, but neither lingered long, pressing onward with purpose. Corman, distracted by his own thoughts, barely registered the scene, his focus returning only as Vaelith placed a hand on another stone door. With a motion as casual as a wave, the door crumbled into sand, revealing a grand chamber beyond.
+
+From within, a booming voice echoed, resonating with authority. “Who approaches my summons?”
+
+Vaelith stepped forward without hesitation, his voice clear and commanding. “It is I, Vaelith. I bring mortals. They bear a writ. I suggest you let them in.”
+
+The door slid open like a curtain, revealing a towering, cathedral-like chamber. At its center rested a massive throne of skulls, wreathed in flickering flames. Seated upon it was a devil of imposing stature, his form grotesquely stunted yet radiating power. His eyes burned with a cruel light as he surveyed the intruders. “You now address the High Reformist Shankarnarth of Legathos,” he declared, his voice shaking the room.
+
+Vaelith bowed deeply, ushering the group forward with a subtle gesture before stepping back into the shadows. Eirik advanced cautiously, dropping to one knee and holding out the writ of trade. “High Reformist Shankarnarth,” he began, his tone respectful but firm, “we come on behalf of the Proprietor.”
+
+At the mention of the Proprietor, Shankarnarth’s lips curled into a faint smirk. Rising from his throne, his movements were deliberate, and his steps reverberated like thunder. Though not towering, his presence was immense, and as he descended the steps, he came eye-to-eye with Thalrok. “The Proprietor,” he mused, his voice dripping with mockery. “How curious.”
+
+Eirik extended the writ further, and Shankarnarth took it with a clawed hand, inspecting it with a faint glow of infernal magic. The light flickered, less vibrant than when Timphalos had performed a similar act. After a moment, he passed the writ back to Eirik. “So, you’ve visited Timphalos,” he remarked, his tone almost amused. “Still stuck in his volcano, I see. The price the Proprietor demands is steep. Do you even know what it is you’re here to retrieve?”
+
+Eirik shook his head, his honesty earning a booming laugh from the devil. “You are here to break the very laws of the Hells,” Shankarnarth said, his voice filled with dark amusement. “To steal a soul, a most exquisitely tortured soul, from its rightful torment and return it to the mortal plane. To pervert the natural order of death itself. And yet, you come without knowing which soul you seek.”
+
+The group exchanged uneasy glances as Eirik stepped forward, his voice steady. “High Reformist, surely there must be some clue—a way to identify the soul we are meant to retrieve. Your domain is vast, and the souls here countless. It could take an eternity to find it.”
+
+Shankarnarth’s laughter echoed once more. “You mortals,” he said, shaking his head. “Always in such a rush. You have an overabundance of eternity here in Phlegethos, Hellsworn.” He eyed Eirik with a mixture of disdain and curiosity. “I could provide the soul as the Proprietor requests, but the agreement does not stipulate when. Perhaps in 200 or 300 years’ time.”
+
+Eirik bowed deeply, his tone deferential. “It would be my honor to carry out Phlegethos’ will in the mortal realm,” he said, his words carefully chosen to appeal to the devil’s pride. “But I must return to do so.”
+
+Shankarnarth waved a dismissive hand. “The Proprietor was a fool to send mortals to carry his word,” he said. “I could provide a trade writ for this soul, but it would need to be certified by the Infernal Courts first. Bureaucracy is such a delightful thing, don’t you agree?”
+
+Corman, his patience wearing thin, stepped forward with a wry smile. “Why not cut to the chase? Do you wish to grant us possession of the soul now, or shall we continue this dance?”
+
+Shankarnarth’s gaze swept over the group, his eyes narrowing as they landed on Vaelith. “You serve Belial, do you not?” he asked, his tone sharp.
+
+Vaelith nodded. “I do, High Reformist.”
+
+The devil paused, as if weighing his options. “And do you believe these mortals worthy of such a grace? Should I extend them the courtesy of my favor?”
+
+Vaelith’s gaze shifted to each member of the party, his expression unreadable. “I have not known them long,” he admitted, “but they bring news of home. Terrible news, tragic news, but news that Belial would not deliver himself. Do as you will.”
+
+Shankarnarth’s smirk returned as he turned back to the group. “Very well,” he said, his tone laced with menace. “Let us see if you can prove yourselves worthy of this task. The soul you seek is here, but its retrieval will not come without cost.”
+
+The adventurers stood in uneasy silence, the weight of the devil’s words hanging heavily in the air. The path ahead was fraught with peril, and the price of their mission remained uncertain. But in the depths of Phlegethos, hesitation was a luxury they could not afford.
+
+The sweltering heat of Phlegethos pressed down on the adventurers as Shankarnarth’s booming laughter echoed through the chamber, his grotesque form settling back onto his throne of skulls. The devil’s fiery gaze swept over the group, lingering on each of them as his words hung heavy in the air. The door behind them had slammed shut with finality, and the oppressive sense of being trapped intensified. The air itself seemed to vibrate with anticipation as the devil’s voice cut through the tension.
+
+“You’ve agreed to a performance,” Shankarnarth declared, his tone dripping with mockery. “But not the kind you had in mind. Enthrall me with your might, mortals. Show me the ways of martial combat from your plane. And do note—this performance is to the death.”
+
+The chamber around them shifted, the walls crumbling into dust and revealing the open air. The bright, fiery light of the lava sea beyond bathed the platform in an eerie glow. Souls, twisted and tormented, lined the edges of the platform, their silent suffering a grim audience to the spectacle about to unfold. From the center of the chamber, the air shimmered and pulsed as Shankarnarth snapped his fingers, the sound growing louder and louder until it became a deafening roar.
+
+Before the adventurers, an orb began to materialize, small at first but growing rapidly in size. It expanded from the size of an orange to that of a beach ball, and then to something far larger—nearly the size of a small carriage. As it unfolded, its grotesque form revealed itself: a massive, floating beholder, its singular, monstrous eye glaring down at the group with malevolent intent. A gaping mouth lined with jagged teeth stretched into a hideous grin, and ten writhing tentacles extended outward, each tipped with a smaller, glinting eye. The creature, known as the Reforming Gaze, floated ominously some forty feet above the platform, its presence suffused with an aura of dread.
+
+Shankarnarth leaned back in his throne, his amusement palpable as he gestured toward the monstrosity. “Behold, mortals, the Reforming Gaze—a prized possession of mine. It has been far too long since it has gazed upon your kind. Now, entertain me.”
+
+The adventurers stood frozen for a moment, the enormity of the situation settling over them like a suffocating shroud. Each member of the group reacted in their own way, their personalities and instincts shining through as they prepared for the inevitable battle.
+
+Thalrok, the goliath druid, clenched his fists as his towering form straightened. His stoic demeanor gave way to a faint scowl as he regarded the beholder. “So, this is what he meant by a performance,” he muttered, his voice low and steady. He reached for the primal magic within him, his mind already calculating the best way to counter the creature’s aerial advantage. “If it’s a fight he wants, it’s a fight he’ll get.”
+
+Eirik, the human fighter, tightened his grip on Greybreaker, the infernal-marked weapon glowing faintly in the dim light. His jaw clenched as he stepped forward, positioning himself between the beholder and his companions. He glanced at the platform’s edges, noting the precarious footing and the molten sea far below. “Keep your focus,” he said, his voice calm but commanding. “This thing’s got eyes everywhere. Don’t let it catch you off guard.”
+
+Corman, the human paladin, took a step back, his gaze shifting between the beholder and Shankarnarth. His expression was a mixture of frustration and determination as he gripped his longsword tightly. “A fight to the death, huh?” he said, his tone edged with sarcasm. “Typical devil games. Fine. Let’s see how this thing likes a bit of divine retribution.” He raised his weapon, the faint glow of his smite magic flickering to life.
+
+Bog, the satyr monk, crouched low, his hooves scraping against the platform as he readied himself. His drum, still in hand from the aborted performance, was set aside as his focus narrowed to the beholder. “Well, this isn’t exactly the kind of dance I had in mind,” he quipped, his grin returning despite the tension. He began to sway slightly, his movements fluid and deliberate as he prepared to dart into action. “Let’s see if this thing can keep up.”
+
+Morty, the undead rogue, watched the beholder with his hollow, unblinking gaze. Perched slightly apart from the group, he remained unnervingly still, his skeletal fingers idly flipping a soul coin. “A performance to the death,” he murmured, his voice devoid of emotion. “Fitting, I suppose.” With a flick of his wrist, he summoned one of his psychic daggers, the spectral blade shimmering faintly in the air. “Let’s see how well this thing dances.”
+
+Vaelith, the elven warlock fighter, stepped forward, his ancient harp still in hand. The charred and sooty instrument seemed to resonate with the tension in the air as he plucked a single, haunting note. His gaze remained fixed on the beholder, his demeanor calm yet intense. “This creature feeds on fear,” he said quietly, his voice carrying a weight of centuries. “Do not give it the satisfaction.”
+
+As the Reforming Gaze loomed above them, its singular eye glinting with malice, Shankarnarth’s laughter echoed once more. The devil settled into his throne, his fiery gaze fixed on the adventurers. “Begin,” he commanded, his voice reverberating through the chamber.
+
+The adventurers braced themselves, their weapons drawn and their resolve tested. The Reforming Gaze let out a guttural, otherworldly sound as its tentacles writhed and its gaze swept over the group. The battle was about to begin, and the stakes could not have been higher. In the depths of Phlegethos, surrounded by the tormented souls of the damned, the adventurers prepared to give the performance of their lives.
+
+The oppressive heat of Phlegethos seemed to pulse with anticipation as the adventurers stood before the Reforming Gaze, the monstrous beholder floating ominously above the platform. Its grotesque form radiated malevolence, its central eye glowing with an eerie light that sent shivers through even the most battle-hardened of the group. The silence that followed Shankarnarth’s command to "entertain" was deafening, broken only by the faint crackle of flames licking the edges of the infernal chamber.
+
+Bog, the satyr monk, was the first to react, though his usual bravado was tempered by the sheer otherworldly presence of the Reforming Gaze. He took an instinctive step back, his hooves scraping against the stone platform, and nudged Corman forward with a wry grin. “You’re up, paladin,” he muttered, his voice laced with nervous humor. As he stared up at the floating monstrosity, Bog slipped on the Reaching Ring, the faint hum of its magic momentarily reassuring him—though he couldn’t shake the unease that settled in his chest.
+
+Vaelith, the enigmatic elven warlock fighter, stepped forward with a calm, almost practiced precision. His hand outstretched, he summoned an infernal halberd that materialized in a swirl of dark energy, its wicked blade gleaming in the dim light. Without hesitation, he muttered an incantation, and both he and Eirik began to levitate, their forms rising gracefully into the air. “Stay mobile,” Vaelith advised, his voice steady as his sharp eyes remained fixed on the beholder. “We’ll need every advantage we can get.”
+
+Eirik, now hovering above the platform, cast Blade Ward on himself, his body shimmering faintly with protective energy. He gripped Greybreaker tightly, the infernal-marked weapon crackling with power as he scraped it against the ground. The sound was thunderous, a howl of defiance that echoed through the chamber. “You want a performance?” he shouted, his voice cutting through the tension. “I’ll give you a performance!” He raised the blade, ready to strike, his stance radiating controlled aggression.
+
+Thalrok, the goliath druid, took a deep breath, his towering form seemingly growing even larger as he channeled his primal magic. The air around him shimmered as he cast Fountain of Moonlight, a radiant glow enveloping the platform. With a roar, he shapeshifted into a massive hornet, his wings buzzing with an ominous hum. The transformation was both awe-inspiring and terrifying, and the wild glint in his compound eyes left no doubt that he was ready to fight.
+
+Corman, ever the stalwart paladin, stepped forward with a determined expression. “You wanted combat? You’ve got it,” he declared, his voice ringing with the authority of Lathander. He placed a hand on Thalrok’s massive insectoid form, casting Haste upon him. The spell surged through the druid’s body, amplifying his already formidable speed and reflexes. “By the might of Lathander, let’s show this thing what we’re made of!”
+
+Morty, perched slightly apart from the group, pulled out his bindform baton and activated its necromantic rejuvenation. The undead rogue’s skeletal form seemed to gain a faint, eerie vitality as the magic took hold. With a flick of his wrist, he summoned one of his psychic daggers, the spectral blade hovering in the air as he prepared to strike. “Let’s get this over with,” he muttered, his hollow voice carrying an unsettling calm.
+
+As the group readied themselves, the Reforming Gaze’s central eye began to glow brighter, its malevolent energy washing over the platform. The adventurers felt a sudden, jarring shift as the magic around them faltered. The beholder’s anti-magic cone swept across the chamber, rendering all magical effects inert. Weapons, items, and spells alike were stripped of their power, their enchantments suspended under the creature’s gaze. The Reaching Ring on Bog’s finger went cold, Corman’s mace turned lifeless, and even the protective magics on Eirik and Vaelith faded into nothingness.
+
+The realization hit them like a physical blow. The Reforming Gaze wasn’t just a physical threat—it was a force of nature, capable of unraveling their carefully laid plans with a single glance. The adventurers exchanged tense glances, their minds racing to adapt to this new challenge. The beholder let out a guttural, otherworldly sound, its tentacles writhing as it prepared to attack.
+
+Shankarnarth’s laughter echoed once more, a cruel reminder of the stakes. “Dance for me, mortals,” he taunted, his voice dripping with mockery. “Let us see if you are worthy of the soul you seek.”
+
+The adventurers braced themselves, their weapons raised and their resolve steeled. The Reforming Gaze loomed above them, its malevolent eye sweeping across the chamber as the battle began. In the depths of Phlegethos, surrounded by the tormented souls of the damned, the group prepared to fight not just for their lives, but for their very purpose. The performance had begun, and failure was not an option.
+
